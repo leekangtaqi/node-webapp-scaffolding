@@ -1,4 +1,4 @@
-// import mongooseMain from './mongoose'
+import mongooseMain from './mongoose'
 
 let context = {
   redis: <any> null,
@@ -6,6 +6,6 @@ let context = {
     main: null
   }
 }
-// context.mongoose.main = mongooseMain;
+context.mongoose.main = mongooseMain;
 
 export default context

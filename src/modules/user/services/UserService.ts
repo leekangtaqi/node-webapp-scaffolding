@@ -1,19 +1,33 @@
-export default class UserService {
-  context: any = {}
+import { IApplicationContext } from '../../../framework/app/context'
+import { Service } from '../../../framework/app/Decorators'
 
-  constructor(context: any){
+export interface IUserService {
+  find: Function,
+  create: Function,
+  update: Function
+}
+
+@Service()
+export default class UserService implements IUserService{
+  context: IApplicationContext = null
+
+  constructor(context: IApplicationContext){
     this.context = context;
   }
 
-  async findUsers(){
-    return await new Promise(resolve => {
-      setTimeout(() => {
-        resolve([
-          {id: 1, name: 'henry', password: 123},
-          {id: 2, name: 'lily', password: 123},
-          {id: 3, name: 'rick', password: 123},
-        ])
-      }, 100)
-    })
+  async create(userMeta: any){
+    let User = this.context.models.UserModel
+    let user = new User(userMeta)
+    await user.save()
+    return user
+  }
+
+  async update(userMeta: any){
+    
+  }
+
+  async find(){
+    let User = this.context.models.User
+    return await User.find().exec()
   }
 }

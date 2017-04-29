@@ -1,23 +1,23 @@
-import * as Koa from 'koa'
 import config from './config'
-import decorate from '../framework/app'
+import Application, { IContext } from '../framework/app'
 import context from './context'
 import mongooseMain from './mongoose'
+import { IUserService } from '../modules/interfaces'
+import * as path from 'path'
 
-let app:any = decorate(new Koa())
+let app = new Application()
 
-// app.addMember('mongoose', mongooseMain)
+app.addMember('mongoose', mongooseMain)
 
-app.appContext = context
+app.domainContext = context
 
-app.use(async (ctx: any, next: any) => {
-  let users = await ctx.app.ctx.services.UserService.findUsers()
-  console.warn(users)
-  ctx.body = users
+app.use(async (ctx: IContext, next: Function) => {
+  console.warn(ctx.app.ctx)
+  next()
 })
 
 async function main(){
-  await app.readyAsync()
+  await app.readyAsync([path.join(__dirname, '../modules')])
   app.listen(config.port, () => {
     console.warn(`application is startup, listening on port ${config.port}`)
   })

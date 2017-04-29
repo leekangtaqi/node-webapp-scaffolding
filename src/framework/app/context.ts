@@ -1,9 +1,8 @@
-interface IApplicationContext {
-  models: Object;
-  services: Object;
+export interface IApplicationContext {
+  models: any;
+  services: any;
 }
 export default class ApplicationContext implements IApplicationContext {
-  models: any = null;
-  services: any = null;
-  
+  models: any = {};
+  services: any = {};
 }
