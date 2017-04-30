@@ -1,13 +1,26 @@
-import { Controller, Param, Get } from '../../../framework/app/Decorators'
+import { Controller, Param, Get, UseBefore } from '../../../framework/app'
+import {  } from '../../common/middlewares/testMiddleware'
 import { Context } from 'koa'
 
-@Controller('/user')
+@Controller('/api/user')
+@UseBefore([async function(ctx:any, next:Function) {
+  await next()
+}])
 export default class UserController {
   @Get('/')
+  @UseBefore([async function(ctx:any, next:Function) {
+    console.warn('fdiosajfdosiajfoids')
+    await next()
+  }])
   async getUser( { ctx }: { ctx: any } ){
-    let x = null
-    x = await ctx.app.ctx.services.UserService.find()
-    return x
+    try {
+      let x = null
+      x = await ctx.app.ctx.services.UserService.find()
+      return x
+    } catch (e) {
+      console.error(e)
+    }
+    
   }
 
   @Get('/:id')

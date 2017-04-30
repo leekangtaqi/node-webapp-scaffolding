@@ -1,5 +1,5 @@
 import config from './config'
-import Application, { IContext } from '../framework/app'
+import { Application, IContext } from '../framework/app'
 import context from './context'
 import mongooseMain from './mongoose'
 import { IUserService } from '../modules/interfaces'
@@ -12,8 +12,8 @@ app.addMember('mongoose', mongooseMain)
 app.domainContext = context
 
 app.use(async (ctx: IContext, next: Function) => {
-  console.warn(ctx.app.ctx)
-  next()
+  console.warn(next)
+  await next();
 })
 
 async function main(){
