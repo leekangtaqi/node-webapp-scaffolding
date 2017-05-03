@@ -1,5 +1,11 @@
 import Router from 'koa-router'
 
+/**
+ * Helper to define sub router.
+ * @param {String} prefix 
+ * @param {Function} routerCreator 
+ * @return {Function}
+ */
 export default function mount(prefix, routerCreator) {
   return function (toMount, options) {
     let router = null
