@@ -1,5 +1,5 @@
 import baseCfg from './config.base'
-import props from '../properties'
+import props from '../app/properties'
 import * as _ from 'lodash'
 
 const env = process.env

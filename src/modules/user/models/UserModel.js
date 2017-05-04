@@ -1,11 +1,27 @@
 'use strict';
-import * as mongoose from 'mongoose';
+import mongoose, { Schema } from 'mongoose'
 
-class User {
-  username = {
-    type: String
+const UserSchema = new Schema({
+  username: {
+    type: String,
+    trim: true,
+    required: 'Username is required!!'
   }
-  options = {
-    timestamps: true
+},{
+  timestamps:true
+})
+
+UserSchema.set('toObject', {
+  getters: true,
+  virtuals: true,
+  transform: function(doc, ret, options) {
+    options.hide = options.hide || '_id __v createdAt updatedAt'
+    if (options.hide) {
+      options.hide.split(' ').forEach(function (prop) {
+        delete ret[prop];
+      })
+    }
   }
-}
+})
+
+module.exports = mongoose.model('User', UserSchema)

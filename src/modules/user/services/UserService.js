@@ -4,10 +4,11 @@ export default class UserService {
   }
 
   async create(userMeta){
-    let User = this.context.models.UserModel
+    let User = this.context.models.User
     let user = new User(userMeta)
     await user.save()
     return user
+
   }
 
   async update(userMeta){

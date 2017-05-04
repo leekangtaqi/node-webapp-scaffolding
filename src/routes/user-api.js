@@ -1,6 +1,9 @@
-import UserControllerFactory from '../modules/user/controllers/UserController'
+import context from '../app/context'
 
 export default function UserApiRouter(router){
-  router.get('/:id', UserControllerFactory().getUser)
+  let { userController }  = context.controllers
+
+  router.get('/:id', userController.getUser)
+  
   return router
 }

@@ -1,28 +1,22 @@
-// import { Controller, Param, Get, UseBefore } from '../../../framework/app'
-// import {  } from '../../common/middlewares/testMiddleware'
-// import { Context } from 'koa'
-class UserController {
-  async getUser(ctx){
-    const { params } = ctx
+export default class UserController {
+  async getUser(ctx) {
+    const { params, app } = ctx
     try {
-      console.warn('id is **********')
-      console.warn(params.id)
-      ctx.body = 'get user'
+      let users = await app.ctx.services.UserService().find()
+      let userTmp = users[1]
+      await app.ctx.kvs.UserKv().save(userTmp)
+      let user = await app.ctx.kvs.UserKv().loadById(userTmp.id)
+      ctx.body = user
     } catch (e) {
-      console.error(e)
+      throw e
     }
-    
   }
 
-  async getUserById(){
+  async getUserById(id) {
     try {
       console.warn('get user by id')
     } catch (e) {
-      console.error(e)
+      throw e
     }
   }
-}
-
-export default function () {
-  return new UserController()
 }
