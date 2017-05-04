@@ -11,7 +11,6 @@ app.proxy = true;
 app.port =  process.env.PORT || config.env.port;
 app.bindip =  process.env.BINDIP || config.env.bindIp;
 
-// bootstrap
 bootstrap(app)
 
 app.ctx = context
