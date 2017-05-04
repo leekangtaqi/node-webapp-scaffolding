@@ -7015,3 +7015,595 @@ Please handle this in your code to make sure everything works as you intended it
 [2017-05-04 17:14:28.780] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
 [2017-05-04 17:14:28.784] [INFO] app - Redis client default is ready {}
 [2017-05-04 17:14:29.343] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 17:30:21.795] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 17:30:21.807] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 17:30:21.810] [INFO] app - Redis client default is ready {}
+[2017-05-04 17:30:22.231] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 17:30:24.441] [DEBUG] app - 2017-5-4 17:30:24 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 17:30:24.447] [WARN] console - this is a logger middleware.
+[2017-05-04 17:30:28.052] [DEBUG] app - 2017-5-4 17:30:28 ::1 -- GET /api HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 17:30:28.142] [DEBUG] app - 2017-5-4 17:30:28 ::1 -- GET /api HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 17:30:30.554] [DEBUG] app - 2017-5-4 17:30:30 ::1 -- GET /axxx HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:02:36.451] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:02:36.468] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:02:36.473] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:02:36.895] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:02:41.077] [DEBUG] app - 2017-5-4 20:02:41 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:02:41.083] [WARN] console - this is a logger middleware.
+[2017-05-04 20:02:54.991] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:02:55.009] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:02:55.013] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:02:55.521] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:02:55.773] [DEBUG] app - 2017-5-4 20:02:55 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:02:55.778] [WARN] console - this is a logger middleware.
+[2017-05-04 20:02:57.637] [DEBUG] app - 2017-5-4 20:02:57 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:02:57.637] [WARN] console - this is a logger middleware.
+[2017-05-04 20:02:57.801] [DEBUG] app - 2017-5-4 20:02:57 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:02:57.802] [WARN] console - this is a logger middleware.
+[2017-05-04 20:02:57.944] [DEBUG] app - 2017-5-4 20:02:57 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:02:57.945] [WARN] console - this is a logger middleware.
+[2017-05-04 20:02:58.081] [DEBUG] app - 2017-5-4 20:02:58 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:02:58.082] [WARN] console - this is a logger middleware.
+[2017-05-04 20:03:42.199] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:03:42.214] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:04:06.321] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:04:06.337] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:04:38.529] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:04:38.540] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:05:45.720] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:05:45.732] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:06:26.686] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:06:26.702] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:06:26.708] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:06:27.125] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:09:37.490] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:09:37.510] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:09:37.513] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:09:37.882] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:09:38.863] [DEBUG] app - 2017-5-4 20:09:38 ::1 -- GET /api/ HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:09:41.275] [DEBUG] app - 2017-5-4 20:09:41 ::1 -- GET /api/ HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:24:27.610] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:24:27.627] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:24:27.632] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:24:27.977] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:25:35.937] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:25:35.952] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:25:35.957] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:25:36.291] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:27:14.079] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:27:14.094] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:27:14.099] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:27:14.424] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:27:25.091] [WARN] console - { BadRequestError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } } }
+[2017-05-04 20:27:25.174] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:27:25.183] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:27:25.188] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:27:25.417] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:29:56.814] [WARN] console - { BadRequestError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnauthorizedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PaymentRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ForbiddenError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotFoundError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  MethodNotAllowedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotAcceptableError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ConflictError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  GoneError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  LengthRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PreconditionFailedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnprocessableEntityError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnorderedCollectionError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UpgradeRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PreconditionRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  TooManyRequestsError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestHeaderFieldsTooLargeError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InternalServerError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotImplementedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ServiceUnavailableError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  GatewayTimeoutError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  HttpVersionNotSupportedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  VariantAlsoNegotiatesError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InsufficientStorageError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BandwidthLimitExceededError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotExtendedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NetworkAuthenticationRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BadDigestError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BadMethodError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InternalError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidArgumentError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidContentError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidCredentialsError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidHeaderError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  MissingParameterError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotAuthorizedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestExpiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestThrottledError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  WrongAcceptError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } } }
+[2017-05-04 20:29:56.915] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:29:56.923] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:29:56.926] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:29:57.178] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:30:01.683] [WARN] console - { BadRequestError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnauthorizedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PaymentRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ForbiddenError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotFoundError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  MethodNotAllowedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotAcceptableError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ConflictError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  GoneError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  LengthRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PreconditionFailedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestEntityTooLargeError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnprocessableEntityError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnorderedCollectionError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UpgradeRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PreconditionRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  TooManyRequestsError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestHeaderFieldsTooLargeError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InternalServerError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotImplementedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ServiceUnavailableError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  GatewayTimeoutError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  HttpVersionNotSupportedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  VariantAlsoNegotiatesError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InsufficientStorageError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BandwidthLimitExceededError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotExtendedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NetworkAuthenticationRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BadDigestError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BadMethodError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InternalError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidArgumentError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidContentError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidCredentialsError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidHeaderError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  MissingParameterError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotAuthorizedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestExpiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestThrottledError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  WrongAcceptError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } } }
+[2017-05-04 20:30:01.747] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:30:01.761] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:30:01.766] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:30:02.015] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:30:10.110] [WARN] console - { BadRequestError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnauthorizedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PaymentRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ForbiddenError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotFoundError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  MethodNotAllowedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotAcceptableError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ConflictError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  GoneError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  LengthRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PreconditionFailedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestEntityTooLargeError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnprocessableEntityError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnorderedCollectionError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UpgradeRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PreconditionRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  TooManyRequestsError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestHeaderFieldsTooLargeError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InternalServerError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotImplementedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ServiceUnavailableError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  GatewayTimeoutError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  HttpVersionNotSupportedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  VariantAlsoNegotiatesError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InsufficientStorageError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BandwidthLimitExceededError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotExtendedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NetworkAuthenticationRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BadDigestError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BadMethodError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InternalError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidArgumentError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidContentError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidCredentialsError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidHeaderError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  MissingParameterError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotAuthorizedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestExpiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestThrottledError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  WrongAcceptError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } } }
+[2017-05-04 20:30:10.177] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:30:12.961] [WARN] console - { BadRequestError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnauthorizedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PaymentRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ForbiddenError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotFoundError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  MethodNotAllowedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotAcceptableError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ConflictError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  GoneError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  LengthRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PreconditionFailedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestEntityTooLargeError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnprocessableEntityError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UnorderedCollectionError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  UpgradeRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  PreconditionRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  TooManyRequestsError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestHeaderFieldsTooLargeError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InternalServerError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotImplementedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  ServiceUnavailableError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  GatewayTimeoutError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  HttpVersionNotSupportedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  VariantAlsoNegotiatesError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InsufficientStorageError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BandwidthLimitExceededError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotExtendedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NetworkAuthenticationRequiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BadDigestError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  BadMethodError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InternalError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidArgumentError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidContentError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidCredentialsError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  InvalidHeaderError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  MissingParameterError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  NotAuthorizedError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestExpiredError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  RequestThrottledError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } },
+  WrongAcceptError: { [Function: anonymous] super_: { [Function: RestError] super_: [Object] } } }
+[2017-05-04 20:30:13.021] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:30:13.033] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:30:13.038] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:30:13.316] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:30:36.508] [WARN] console - { [Function: anonymous]
+  super_: 
+   { [Function: RestError]
+     super_: 
+      { [Function: Error]
+        stackTraceLimit: 22,
+        prepareStackTrace: [Function: prepareStackTrace] } } }
+[2017-05-04 20:30:36.579] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:30:36.598] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:30:36.603] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:30:36.850] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:31:34.885] [WARN] console - { [Function: anonymous]
+  super_: 
+   { [Function: RestError]
+     super_: 
+      { [Function: Error]
+        stackTraceLimit: 22,
+        prepareStackTrace: [Function: prepareStackTrace] } } }
+[2017-05-04 20:31:34.946] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:31:34.955] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:31:34.958] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:31:35.195] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:31:50.581] [WARN] console - { [Function: anonymous]
+  super_: 
+   { [Function: RestError]
+     super_: 
+      { [Function: Error]
+        stackTraceLimit: 22,
+        prepareStackTrace: [Function: prepareStackTrace] } } }
+[2017-05-04 20:31:50.663] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:31:50.671] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:31:50.676] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:31:50.943] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:33:14.884] [WARN] console - { [Function: BadDigestError]
+  super_: 
+   { [Function: RestError]
+     super_: 
+      { [Function: Error]
+        stackTraceLimit: 22,
+        prepareStackTrace: [Function: prepareStackTrace] } } }
+[2017-05-04 20:33:14.956] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:33:14.964] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:33:14.967] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:33:15.248] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:35:02.986] [WARN] console - { [BadDigestError: null]
+  restCode: null,
+  statusCode: null,
+  message: null,
+  constructorOpt: undefined,
+  name: 'BadDigestError' }
+[2017-05-04 20:35:03.069] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:35:03.085] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:35:03.089] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:35:03.362] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:35:21.755] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:35:21.764] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:35:21.768] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:35:22.046] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:37:10.766] [WARN] console - null
+[2017-05-04 20:37:10.851] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:37:10.863] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:37:10.866] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:37:11.064] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:38:38.991] [WARN] console - I am a teapot
+[2017-05-04 20:38:39.057] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:38:39.066] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:38:39.068] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:38:39.283] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:38:49.098] [WARN] console - I am a teapot
+[2017-05-04 20:38:49.196] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:38:49.208] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:38:49.213] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:38:49.433] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:39:12.543] [WARN] console - I am a teapot
+[2017-05-04 20:39:12.609] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:39:12.622] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:39:12.625] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:39:12.878] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:40:08.597] [WARN] console - true
+[2017-05-04 20:40:08.676] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:40:08.685] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:40:08.688] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:40:08.930] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:40:24.583] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:40:24.597] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:40:24.600] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:40:24.843] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:40:40.273] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:40:40.289] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:40:40.293] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:40:40.554] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:41:15.145] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:41:15.161] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:41:15.166] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:41:15.382] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:41:39.812] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:41:39.827] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:41:39.831] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:41:40.092] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:42:19.438] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:42:19.450] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:42:19.453] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:42:19.679] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:42:23.059] [DEBUG] app - 2017-5-4 20:42:23 ::1 -- GET / HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:42:28.298] [DEBUG] app - 2017-5-4 20:42:28 ::1 -- GET /api/user HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:42:31.697] [DEBUG] app - 2017-5-4 20:42:31 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:42:31.697] [WARN] console - this is a logger middleware.
+[2017-05-04 20:42:31.706] [ERROR] console - 
+[2017-05-04 20:42:31.706] [ERROR] console -   TypeError: Cannot read property 'throw' of undefined
+      at _callee$ (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/modules/user/controllers/UserController.js:6:7)
+      at tryCatch (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/regenerator-runtime/runtime.js:65:40)
+      at Generator.invoke [as _invoke] (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/regenerator-runtime/runtime.js:303:22)
+      at Generator.prototype.(anonymous function) [as next] (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/regenerator-runtime/runtime.js:117:21)
+      at step (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/modules/user/controllers/UserController.js:9:191)
+      at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/modules/user/controllers/UserController.js:9:437
+      at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/modules/user/controllers/UserController.js:9:99
+      at getUser (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/modules/user/controllers/UserController.js:66:21)
+      at dispatch (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-compose/index.js:44:32)
+      at next (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-compose/index.js:45:18)
+      at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-router/lib/router.js:326:16
+      at dispatch (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-compose/index.js:44:32)
+      at next (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-compose/index.js:45:18)
+      at _callee$ (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/middlewares/logger.js:3:9)
+      at tryCatch (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/regenerator-runtime/runtime.js:65:40)
+      at Generator.invoke [as _invoke] (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/regenerator-runtime/runtime.js:303:22)
+      at Generator.prototype.(anonymous function) [as next] (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/regenerator-runtime/runtime.js:117:21)
+      at step (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/middlewares/logger.js:7:191)
+      at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/middlewares/logger.js:7:437
+      at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/middlewares/logger.js:7:99
+      at logger (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/src/middlewares/logger.js:28:17)
+      at dispatch (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-compose/index.js:44:32)
+      at next (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-compose/index.js:45:18)
+      at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-router/lib/router.js:326:16
+      at dispatch (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-compose/index.js:44:32)
+      at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-compose/index.js:36:12
+      at dispatch (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-router/lib/router.js:331:31)
+      at dispatch (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/koa-compose/index.js:44:32)
+[2017-05-04 20:42:31.707] [ERROR] console - 
+[2017-05-04 20:42:44.002] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:42:44.012] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:42:44.017] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:42:44.290] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:42:45.133] [DEBUG] app - 2017-5-4 20:42:45 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:42:45.137] [WARN] console - this is a logger middleware.
+[2017-05-04 20:42:50.859] [DEBUG] app - 2017-5-4 20:42:50 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:42:50.859] [WARN] console - this is a logger middleware.
+[2017-05-04 20:43:33.969] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:43:33.987] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:43:33.992] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:43:34.524] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:43:35.594] [DEBUG] app - 2017-5-4 20:43:35 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:43:35.600] [WARN] console - this is a logger middleware.
+[2017-05-04 20:43:41.651] [DEBUG] app - 2017-5-4 20:43:41 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:43:41.652] [WARN] console - this is a logger middleware.
+[2017-05-04 20:45:40.967] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:45:40.979] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:45:40.982] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:45:41.428] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:45:45.525] [DEBUG] app - 2017-5-4 20:45:45 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:45:45.534] [WARN] console - this is a logger middleware.
+[2017-05-04 20:45:45.537] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError',
+  expose: true,
+  status: 418 }
+[2017-05-04 20:46:47.150] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:46:47.162] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:46:47.165] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:46:47.600] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:46:53.610] [DEBUG] app - 2017-5-4 20:46:53 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:46:53.618] [WARN] console - this is a logger middleware.
+[2017-05-04 20:46:53.621] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError',
+  expose: true,
+  status: 418 }
+[2017-05-04 20:46:53.624] [WARN] console - { request: 
+   { method: 'GET',
+     url: '/api/user/111',
+     header: 
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, sdch, br',
+        'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' } },
+  response: 
+   { status: 404,
+     message: 'Not Found',
+     header: 
+      { 'access-control-allow-origin': '*',
+        'access-control-allow-credentials': 'true',
+        'access-control-allow-methods': 'GET,PUT,POST,PATCH,DELETE',
+        'access-control-allow-headers': 'Content-Type,Authorization,Accept,X-API-From,X-APPID,X-Component,X-FXER,x-api-from,x-appid,x-component,x-fxer' } },
+  app: { subdomainOffset: 2, proxy: true, env: 'development' },
+  originalUrl: '/api/user/111',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2017-05-04 20:47:26.786] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:47:26.801] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:47:26.804] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:47:27.271] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:47:28.615] [DEBUG] app - 2017-5-4 20:47:28 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:47:28.622] [WARN] console - this is a logger middleware.
+[2017-05-04 20:47:28.625] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError',
+  expose: true,
+  status: 418 }
+[2017-05-04 20:47:31.252] [DEBUG] app - 2017-5-4 20:47:31 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:47:31.253] [WARN] console - this is a logger middleware.
+[2017-05-04 20:47:31.253] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError',
+  expose: true,
+  status: 418 }
+[2017-05-04 20:47:54.143] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:47:54.168] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:47:54.171] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:47:54.714] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:47:57.859] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:47:57.870] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:47:57.873] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:47:58.436] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:47:59.269] [DEBUG] app - 2017-5-4 20:47:59 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:47:59.275] [WARN] console - this is a logger middleware.
+[2017-05-04 20:47:59.279] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError',
+  expose: true,
+  status: 418 }
+[2017-05-04 20:48:07.231] [DEBUG] app - 2017-5-4 20:48:07 ::1 -- GET /api/user/xxx HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:48:07.232] [WARN] console - this is a logger middleware.
+[2017-05-04 20:48:07.232] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError',
+  expose: true,
+  status: 418 }
+[2017-05-04 20:48:08.966] [DEBUG] app - 2017-5-4 20:48:08 ::1 -- GET /api/user/xxx HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:48:08.967] [WARN] console - this is a logger middleware.
+[2017-05-04 20:48:08.967] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError',
+  expose: true,
+  status: 418 }
+[2017-05-04 20:48:11.770] [DEBUG] app - 2017-5-4 20:48:11 ::1 -- GET /api/user/xxx HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:48:11.771] [WARN] console - this is a logger middleware.
+[2017-05-04 20:48:11.771] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError',
+  expose: true,
+  status: 418 }
+[2017-05-04 20:48:34.936] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:48:34.949] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:48:34.952] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:48:35.298] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:48:35.853] [DEBUG] app - 2017-5-4 20:48:35 ::1 -- GET /api/user/xxx HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:48:35.859] [WARN] console - this is a logger middleware.
+[2017-05-04 20:48:35.861] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError' }
+[2017-05-04 20:49:03.072] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:49:03.083] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:49:03.086] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:49:03.390] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:49:04.667] [DEBUG] app - 2017-5-4 20:49:04 ::1 -- GET /api/user/xxx HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:49:04.671] [WARN] console - this is a logger middleware.
+[2017-05-04 20:49:04.673] [ERROR] app - { [ForbiddenError: I am a teapot]
+  restCode: null,
+  statusCode: 418,
+  message: 'I am a teapot',
+  constructorOpt: undefined,
+  name: 'ForbiddenError',
+  expose: true,
+  status: 418 }
+[2017-05-04 20:51:06.564] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:51:06.580] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:51:06.583] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:51:06.983] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:53:54.155] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:53:54.197] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:53:54.201] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:53:54.643] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:54:19.051] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:54:19.062] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:54:19.065] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:54:19.498] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:55:58.046] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:55:58.057] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:55:58.060] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:55:58.524] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:56:00.595] [DEBUG] app - 2017-5-4 20:56:00 ::1 -- GET /api/user/xxx HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:56:00.600] [WARN] console - this is a logger middleware.
+[2017-05-04 20:56:00.604] [ERROR] app - { [BadRequestError: Bad Request]
+  restCode: null,
+  statusCode: 400,
+  message: 'Bad Request',
+  constructorOpt: undefined,
+  name: 'BadRequestError',
+  expose: true,
+  status: 400 }
+[2017-05-04 20:56:24.156] [DEBUG] app - 2017-5-4 20:56:24 ::1 -- GET /api/user/xxx HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:56:24.157] [WARN] console - this is a logger middleware.
+[2017-05-04 20:56:24.158] [ERROR] app - { [BadRequestError: Bad Request]
+  restCode: null,
+  statusCode: 400,
+  message: 'Bad Request',
+  constructorOpt: undefined,
+  name: 'BadRequestError',
+  expose: true,
+  status: 400 }
+[2017-05-04 20:56:26.295] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-04 20:56:26.313] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-04 20:56:26.317] [INFO] app - Redis client default is ready {}
+[2017-05-04 20:56:26.746] [INFO] app - application is startup, listening on port 3000
+[2017-05-04 20:56:28.740] [DEBUG] app - 2017-5-4 20:56:28 ::1 -- GET /api/user/xxx HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:56:28.743] [WARN] console - this is a logger middleware.
+[2017-05-04 20:56:31.231] [DEBUG] app - 2017-5-4 20:56:31 ::1 -- GET /api/use22 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-04 20:56:31.233] [ERROR] app - { [NotFoundError: Not Found]
+  restCode: null,
+  statusCode: 404,
+  message: 'Not Found',
+  constructorOpt: undefined,
+  name: 'NotFoundError',
+  expose: true,
+  status: 404 }

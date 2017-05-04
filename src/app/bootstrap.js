@@ -1,11 +1,11 @@
 import logging, { logger } from './logging'
 import config from '../config'
-import onError from 'koa-onerror'
 import views from 'koa-views'
 import cors from 'koa-cors'
 import path from 'path'
 import bodyParser from 'koa-body'
 import mountRoutes from '../routes'
+import errors from '../framework/errors'
 
 export default function bootstrap(app) {
   // add some global middlewares here
@@ -24,17 +24,13 @@ export default function bootstrap(app) {
 
   //404
   app.use(async function(ctx, next) {
-    let res = await ctx.render('404')
-    ctx.body = res
+    ctx.throw(new errors.NotFoundError())
   })
 
   // error handler
-  onError(app,
-    {
-      json: function (err) {
-        logger.error(err);
-        this.status = err.status;
-        this.body = { errmsg: 'Something Error!' };
-      }
-    })
+  app.on('error', (err, ctx) => {
+    logger.error(err);
+    ctx.status = err.statusCode
+    ctx.body = { errmsg: err.message }
+  });
 }

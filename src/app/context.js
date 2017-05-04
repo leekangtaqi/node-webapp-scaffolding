@@ -1,6 +1,7 @@
 import mongooseMain from './mongoose'
 import redisMainCreator from './redis'
 import Ar from '../framework/allready'
+import errors from '../framework/errors'
 import _ from './util'
 import { logger } from './logging'
 
@@ -12,6 +13,7 @@ const contextLoader = {
 }
 
 const context = {
+  errors,
   redis: {
     main: null
   },
@@ -58,7 +60,6 @@ for (let { controllers, models, services, kvs } of _.values(modules)) {
       context.services[key] = (...args) => {
         return new Contrs(context, ...args.slice(1))
       }
-      // context.services[key] = new Contrs(context); 
     }
   }
   // register kvs
@@ -71,7 +72,6 @@ for (let { controllers, models, services, kvs } of _.values(modules)) {
       context.kvs[key] = (...args) => {
         return new Contrs(context, ...args.slice(1))
       }
-      // context.kvs[key] = new Contrs(context); 
     }
   }
   // register controllers

@@ -2,6 +2,7 @@ export default class UserController {
   async getUser(ctx) {
     const { params, app } = ctx
     try {
+      let { errors } = app.ctx
       let users = await app.ctx.services.UserService().find()
       let userTmp = users[1]
       await app.ctx.kvs.UserKv().save(userTmp)
