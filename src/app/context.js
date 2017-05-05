@@ -4,11 +4,13 @@ import Ar from '../framework/allready'
 import errors from '../framework/errors'
 import _ from './util'
 import { logger } from './logging'
-import { EventEmitter } from 'events'
 
 const context = {
   errors,
   redis: {
+    main: null
+  },
+  db: {
     main: null
   },
   mongoose: {
@@ -26,23 +28,18 @@ export function load(app, done) {
   const allready = new Ar()
   context.logger = logger;
   context.mongoose.main = db;
+  context.db.main = db;
   context.redis.main = redisMain;
 
   allready.add('redis', allready.redis(redisMain));
-  allready.add('mongoose', allready.mongoose(db));
-  // allready.add('mysql', db,
-  //   db => {
-  //     promise.then(function (botManager) {
-  //       ar.up('botManager');
-  //       context.botManager = botManager;
-  //     });
-  //   },
-  //   () => {
-  //     throw new Error(`
-  //       Failed to startup application, [reason]=mysql ready failed.`
-  //     )
-  //   }
-  // );
+  // allready.add('mongoose', allready.mongoose(db));
+  allready.add('mysql', db,
+    db => {
+      db.authenticate().then(() => {
+        allready.up('mysql');
+      })
+    }, () => {}
+  );
 
 
   // wire modules

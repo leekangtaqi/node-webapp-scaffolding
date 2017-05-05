@@ -5,6 +5,13 @@ export default {
     port: 27017,
     db: "wenode"
   },
+  mysql: {
+    host: "127.0.0.1",
+    port: 3306,
+    db: "wenode",
+    password: "40115891r",
+    username: "root"
+  },
   redis: {
     mode: 'single',
     host: '127.0.0.1',

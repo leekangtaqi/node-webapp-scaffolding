@@ -4,10 +4,10 @@ export default class UserController {
     try {
       let { errors } = app.ctx
       let users = await app.ctx.services.UserService().find()
-      let userTmp = users[1]
-      await app.ctx.kvs.UserKv().save(userTmp)
-      let user = await app.ctx.kvs.UserKv().loadById(userTmp.id)
-      ctx.body = user
+      // let userTmp = users[1]
+      // await app.ctx.kvs.UserKv().save(userTmp)
+      // let user = await app.ctx.kvs.UserKv().loadById(userTmp.id)
+      ctx.body = users
     } catch (e) {
       throw e
     }

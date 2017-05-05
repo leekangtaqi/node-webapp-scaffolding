@@ -7,7 +7,7 @@ before(function(done){
 })
 
 describe('UserService', () => {
-  it('#getUser', async () => {
+  it('#find', async () => {
     const { UserService } = context.services
     try {
       const users = await UserService().find()
