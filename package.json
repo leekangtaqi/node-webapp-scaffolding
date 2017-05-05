@@ -4,7 +4,7 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-register",
+    "test": "mocha -t 5000 --compilers js:babel-register",
     "start": "nodemon src/index.js --exec babel-node",
     "build": "babel src -d build",
     "serve": "node build/index.js",
@@ -34,9 +34,11 @@
     "lodash": "^4.17.4",
     "log4js": "^1.1.1",
     "mongoose": "^4.9.6",
+    "mysql": "^2.13.0",
     "redis": "^2.7.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.0",
+    "sequelize": "^3.30.4",
     "swig": "^1.4.2"
   },
   "devDependencies": {

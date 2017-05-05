@@ -7607,3 +7607,1966 @@ Please handle this in your code to make sure everything works as you intended it
   name: 'NotFoundError',
   expose: true,
   status: 404 }
+[2017-05-05 10:50:01.422] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 10:50:01.436] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 10:50:01.439] [INFO] app - Redis client default is ready {}
+[2017-05-05 10:50:01.797] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 10:50:29.080] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 10:50:29.092] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 10:50:29.095] [INFO] app - Redis client default is ready {}
+[2017-05-05 10:50:29.543] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 10:50:29.543] [WARN] console - ???
+[2017-05-05 10:50:37.818] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 10:50:37.840] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 10:50:37.847] [INFO] app - Redis client default is ready {}
+[2017-05-05 10:50:38.340] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 10:51:28.388] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 10:51:28.403] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 10:51:28.406] [INFO] app - Redis client default is ready {}
+[2017-05-05 10:51:28.924] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 10:52:54.143] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 10:52:54.156] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 10:52:54.165] [INFO] app - Redis client default is ready {}
+[2017-05-05 10:52:54.463] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 10:56:04.514] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 10:56:04.527] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 10:56:04.530] [INFO] app - Redis client default is ready {}
+[2017-05-05 10:56:04.833] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 10:59:40.369] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 10:59:40.381] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 10:59:40.384] [INFO] app - Redis client default is ready {}
+[2017-05-05 11:00:09.047] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:00:09.057] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:00:24.818] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:00:24.844] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:00:36.124] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:00:36.142] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:00:47.956] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:00:47.969] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:00:47.975] [INFO] app - Redis client default is ready {}
+[2017-05-05 11:00:48.270] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 11:01:00.919] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:01:00.938] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:01:00.948] [INFO] app - Redis client default is ready {}
+[2017-05-05 11:01:01.143] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 11:01:17.987] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:01:18.002] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:01:18.005] [INFO] app - Redis client default is ready {}
+[2017-05-05 11:01:18.480] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 11:01:47.231] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:01:47.242] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:01:47.245] [INFO] app - Redis client default is ready {}
+[2017-05-05 11:01:47.514] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 11:01:56.776] [DEBUG] app - 2017-5-5 11:01:56 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-05 11:01:56.779] [WARN] console - this is a logger middleware.
+[2017-05-05 11:02:20.639] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:02:20.659] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:03:45.408] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:03:45.433] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:10:46.393] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:10:46.406] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:11:05.791] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:11:05.808] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:12:16.902] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:12:16.920] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:13:01.411] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:13:01.426] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:13:12.449] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:13:12.461] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:13:18.324] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:13:18.345] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:23:37.922] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:23:37.935] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:32:53.157] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:32:53.181] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:37:17.069] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:37:17.094] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:38:02.886] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:38:02.897] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:38:11.972] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:38:11.987] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:40:28.955] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:40:28.969] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:41:04.277] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:41:04.301] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:58:07.543] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:58:07.558] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 11:58:47.023] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 11:58:47.034] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:00:21.560] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 12:00:21.573] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:00:26.901] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 12:00:26.914] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:00:41.621] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 12:00:41.634] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:00:49.620] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 12:00:49.633] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:00:49.635] [INFO] app - Redis client default is ready {}
+[2017-05-05 12:01:09.994] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 12:01:10.006] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:01:10.009] [INFO] app - Redis client default is ready {}
+[2017-05-05 12:01:10.419] [WARN] console - { [Function: Ready] readify: [Function] }
+[2017-05-05 12:02:21.099] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 12:02:21.120] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:02:43.251] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 12:02:43.271] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:04:16.493] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 12:04:16.505] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:04:16.512] [INFO] app - Redis client default is ready {}
+[2017-05-05 12:04:16.889] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 12:04:44.161] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 12:04:44.172] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 12:04:44.174] [INFO] app - Redis client default is ready {}
+[2017-05-05 12:04:44.669] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:17:23.612] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:17:23.626] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:17:23.629] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:17:24.093] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:19:36.688] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:19:36.702] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:19:36.705] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:19:37.210] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:20:01.022] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:20:01.035] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:20:01.039] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:20:01.565] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:20:14.812] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:20:14.823] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:20:14.829] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:20:15.336] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:20:15.338] [WARN] console - jfiodsjfodisjfs
+[2017-05-05 13:20:15.340] [WARN] console - jfiodsjfodisjfs
+[2017-05-05 13:20:15.340] [WARN] console - jfiodsjfodisjfs
+[2017-05-05 13:20:32.696] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:20:32.715] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:20:32.719] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:20:33.212] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:20:33.215] [WARN] console - 0
+[2017-05-05 13:20:33.217] [WARN] console - 1
+[2017-05-05 13:20:33.217] [WARN] console - 1
+[2017-05-05 13:20:59.930] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:20:59.943] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:20:59.946] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:21:00.467] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:21:00.469] [WARN] console - 0
+[2017-05-05 13:21:00.469] [WARN] console - 1
+[2017-05-05 13:21:00.470] [WARN] console - 1
+[2017-05-05 13:21:22.000] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:21:22.011] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:21:22.014] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:21:22.569] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:21:22.570] [WARN] console - [ { [Function: callback] readyStatus: 2 },
+  { [Function: callback] readyStatus: 1 } ]
+[2017-05-05 13:21:22.573] [WARN] console - [ { [Function: callback] readyStatus: 2 },
+  { [Function: callback] readyStatus: 2 } ]
+[2017-05-05 13:21:22.574] [WARN] console - [ { [Function: callback] readyStatus: 2 },
+  { [Function: callback] readyStatus: 2 } ]
+[2017-05-05 13:22:30.661] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:22:30.675] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:22:30.678] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:22:31.209] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:22:49.900] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:22:49.911] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:22:49.914] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:22:50.490] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:23:15.842] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:23:15.858] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:23:15.861] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:23:16.388] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:23:34.960] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:23:34.977] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:23:34.980] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:23:35.555] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:24:14.726] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:24:14.741] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:24:14.746] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:24:15.192] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:24:19.194] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:24:19.208] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:24:19.211] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:24:19.795] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:24:36.598] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:24:36.609] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:24:36.612] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:24:37.094] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:24:37.095] [WARN] console - [ { [Function: callback] readyStatus: 2 },
+  { [Function: callback] readyStatus: 1 } ]
+[2017-05-05 13:24:37.096] [WARN] console - [ { [Function: callback] readyStatus: 2 },
+  { [Function: callback] readyStatus: 2 } ]
+[2017-05-05 13:24:37.096] [WARN] console - [ { [Function: callback] readyStatus: 2 },
+  { [Function: callback] readyStatus: 2 } ]
+[2017-05-05 13:25:08.988] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:25:09.009] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:25:09.013] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:25:09.582] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:25:09.583] [WARN] console - 1
+[2017-05-05 13:25:09.584] [WARN] console - 1
+[2017-05-05 13:25:09.584] [WARN] console - 1
+[2017-05-05 13:25:43.932] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:25:43.942] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:25:43.945] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:25:44.432] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:25:44.433] [WARN] console - 2
+[2017-05-05 13:25:44.434] [WARN] console - 1
+[2017-05-05 13:25:44.434] [WARN] console - 2
+[2017-05-05 13:25:44.434] [WARN] console - 1
+[2017-05-05 13:25:44.435] [WARN] console - 1
+[2017-05-05 13:26:19.854] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:26:19.864] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:26:19.868] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:26:20.315] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:26:20.317] [WARN] console - 2
+[2017-05-05 13:26:20.318] [WARN] console - 1
+[2017-05-05 13:26:20.318] [WARN] console - 2
+[2017-05-05 13:26:20.318] [WARN] console - 2
+[2017-05-05 13:26:20.319] [WARN] console - 0
+[2017-05-05 13:26:41.860] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:26:41.870] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:26:41.873] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:26:42.374] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:26:42.375] [WARN] console - false
+[2017-05-05 13:26:42.376] [WARN] console - 1
+[2017-05-05 13:26:42.376] [WARN] console - true
+[2017-05-05 13:26:42.376] [WARN] console - 2
+[2017-05-05 13:26:42.376] [WARN] console - 0
+[2017-05-05 13:26:58.512] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:26:58.527] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:26:58.531] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:26:58.987] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:26:58.988] [WARN] console - 1
+[2017-05-05 13:26:58.988] [WARN] console - 2
+[2017-05-05 13:26:58.989] [WARN] console - 0
+[2017-05-05 13:27:46.455] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:27:46.471] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:27:46.474] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:27:47.042] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:27:47.043] [WARN] console - 1
+[2017-05-05 13:27:47.043] [WARN] console - 2
+[2017-05-05 13:27:47.044] [WARN] console - 0
+[2017-05-05 13:27:47.044] [WARN] console - all ok ....
+[2017-05-05 13:28:05.224] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:28:05.237] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:28:05.241] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:28:05.791] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:28:05.793] [WARN] console - all ok ....
+[2017-05-05 13:28:12.977] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:28:12.990] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:28:12.993] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:28:13.490] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:28:19.872] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:28:19.885] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:28:19.888] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:28:20.436] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:28:20.438] [WARN] console - all ok ....
+[2017-05-05 13:30:00.762] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:30:00.777] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:30:00.781] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:30:01.292] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:30:01.294] [WARN] console - all ok ....
+[2017-05-05 13:30:24.434] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:30:24.446] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:30:24.449] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:30:24.971] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:30:24.972] [WARN] console - 1
+[2017-05-05 13:30:24.972] [WARN] console - 2
+[2017-05-05 13:30:24.972] [WARN] console - 0
+[2017-05-05 13:30:24.972] [WARN] console - all ok ....
+[2017-05-05 13:31:24.306] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:31:24.319] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:31:24.323] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:31:24.779] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:31:24.780] [WARN] console - 1
+[2017-05-05 13:31:24.780] [WARN] console - 2
+[2017-05-05 13:31:24.781] [WARN] console - 2
+[2017-05-05 13:31:24.781] [WARN] console - all ok ....
+[2017-05-05 13:32:40.776] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:32:40.788] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:32:40.791] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:32:41.279] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:32:41.280] [WARN] console - 1
+[2017-05-05 13:32:41.281] [WARN] console - 2
+[2017-05-05 13:32:41.282] [WARN] console - 0
+[2017-05-05 13:32:41.282] [WARN] console - all ok ....
+[2017-05-05 13:35:08.172] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:35:08.190] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:35:08.193] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:35:08.680] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:35:08.681] [WARN] console - ready status ******** 1
+[2017-05-05 13:35:08.682] [WARN] console - 1
+[2017-05-05 13:35:08.682] [WARN] console - ready status ******** 2
+[2017-05-05 13:35:08.682] [WARN] console - 2
+[2017-05-05 13:35:08.683] [WARN] console - 0
+[2017-05-05 13:35:08.683] [WARN] console - all ok ....
+[2017-05-05 13:35:27.257] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:35:27.269] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:35:27.272] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:35:27.745] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:35:27.748] [WARN] console - [ { [Function: callback] readyStatus: 2 },
+  { [Function: callback] readyStatus: 1 } ]
+[2017-05-05 13:35:27.749] [WARN] console - ready status ******** 1
+[2017-05-05 13:35:27.749] [WARN] console - 1
+[2017-05-05 13:35:27.749] [WARN] console - [ { [Function: callback] readyStatus: 2 },
+  { [Function: callback] readyStatus: 2 } ]
+[2017-05-05 13:35:27.750] [WARN] console - ready status ******** 2
+[2017-05-05 13:35:27.750] [WARN] console - 2
+[2017-05-05 13:35:27.750] [WARN] console - 0
+[2017-05-05 13:35:27.750] [WARN] console - all ok ....
+[2017-05-05 13:38:20.883] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:38:20.897] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:38:20.901] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:38:21.401] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:38:21.403] [WARN] console - ????
+[2017-05-05 13:38:21.403] [WARN] console - 1
+[2017-05-05 13:38:21.404] [WARN] console - ????
+[2017-05-05 13:38:21.404] [WARN] console - 2
+[2017-05-05 13:38:21.404] [WARN] console - 0
+[2017-05-05 13:38:21.404] [WARN] console - all ok ....
+[2017-05-05 13:38:41.164] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:38:41.179] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:38:41.182] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:38:41.680] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:38:41.681] [WARN] console - ????
+[2017-05-05 13:38:41.682] [WARN] console - 1
+[2017-05-05 13:38:41.683] [WARN] console - 1
+[2017-05-05 13:38:47.003] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:38:47.015] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:38:47.018] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:38:47.557] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:38:47.558] [WARN] console - ????
+[2017-05-05 13:38:47.558] [WARN] console - 1
+[2017-05-05 13:38:47.559] [WARN] console - ????
+[2017-05-05 13:38:47.559] [WARN] console - 2
+[2017-05-05 13:38:47.559] [WARN] console - 0
+[2017-05-05 13:38:47.559] [WARN] console - all ok ....
+[2017-05-05 13:39:17.057] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:39:17.073] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:39:17.080] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:39:17.542] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:39:17.545] [WARN] console - ????
+[2017-05-05 13:39:17.546] [WARN] console - ????
+[2017-05-05 13:39:17.546] [WARN] console - all ok ....
+[2017-05-05 13:40:18.217] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:40:18.230] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:40:47.035] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:40:47.059] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:40:55.638] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:40:55.649] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:42:34.853] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:42:34.865] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:42:39.394] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:42:39.441] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:43:14.229] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:43:14.245] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:43:47.132] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:43:47.144] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:44:13.981] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:44:13.994] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:44:32.771] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:44:32.784] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:44:32.788] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:44:33.193] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:44:33.194] [WARN] console - all ok ....
+[2017-05-05 13:45:09.572] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:45:09.583] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:45:09.586] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:45:09.929] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:45:09.931] [WARN] console - all ok ....
+[2017-05-05 13:45:18.158] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:45:18.177] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:45:18.182] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:45:18.542] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:45:18.545] [WARN] console - all ok ....
+[2017-05-05 13:45:27.787] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:45:27.799] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:45:27.803] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:45:28.309] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:45:28.311] [WARN] console - all ok ....
+[2017-05-05 13:46:17.921] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:46:17.935] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:46:17.938] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:46:18.462] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:46:18.464] [WARN] console - all ok ....
+[2017-05-05 13:46:29.949] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:46:29.962] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:46:29.965] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:46:30.425] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:46:30.426] [WARN] console - all ok ....
+[2017-05-05 13:46:38.712] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:46:38.728] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:46:38.735] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:46:39.185] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:46:39.186] [WARN] console - all ok ....
+[2017-05-05 13:46:48.050] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:46:48.061] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:46:48.064] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:46:48.571] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:46:48.572] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:46:48.573] [WARN] console - all ok ....
+[2017-05-05 13:48:00.265] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:48:00.283] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:48:00.288] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:48:00.770] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:48:00.771] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:48:00.772] [WARN] console - all ok ....
+[2017-05-05 13:50:23.095] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:50:23.107] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:50:23.112] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:50:23.642] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:50:23.644] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:50:23.644] [WARN] console - all ok ....
+[2017-05-05 13:50:29.902] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:50:29.914] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:50:29.917] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:50:30.407] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:50:30.409] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:50:30.409] [WARN] console - all ok ....
+[2017-05-05 13:50:40.028] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:50:40.047] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:50:40.059] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:50:40.567] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:50:40.568] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:50:40.568] [WARN] console - all ok ....
+[2017-05-05 13:50:50.487] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:50:50.511] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:50:50.516] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:50:51.404] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:50:51.406] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:50:51.406] [WARN] console - all ok ....
+[2017-05-05 13:50:58.117] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:50:58.137] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:50:58.142] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:50:58.671] [WARN] console - 0
+[2017-05-05 13:50:58.672] [WARN] console - 0
+[2017-05-05 13:50:58.672] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:50:58.673] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:50:58.673] [WARN] console - all ok ....
+[2017-05-05 13:51:09.613] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:51:09.624] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:51:09.627] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:51:10.010] [WARN] console - 0
+[2017-05-05 13:51:10.011] [WARN] console - 0
+[2017-05-05 13:51:10.012] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:51:10.012] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:51:10.012] [WARN] console - all ok ....
+[2017-05-05 13:51:28.029] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:51:28.046] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:51:28.050] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:51:28.535] [WARN] console - 0
+[2017-05-05 13:51:28.536] [WARN] console - 0
+[2017-05-05 13:51:28.537] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:51:28.537] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:51:28.538] [WARN] console - all ok ....
+[2017-05-05 13:52:08.648] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:52:08.659] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:52:08.662] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:52:09.136] [WARN] console - { members: 
+   [ { [Function: callback] readyStatus: 2 },
+     { [Function: callback] readyStatus: 1 } ],
+  callbacks: [],
+  readyStatus: 0 }
+[2017-05-05 13:52:09.138] [WARN] console - 0
+[2017-05-05 13:52:09.138] [WARN] console - 0
+[2017-05-05 13:52:09.138] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:52:09.139] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:52:09.139] [WARN] console - all ok ....
+[2017-05-05 13:52:32.656] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:52:32.668] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:52:32.671] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:52:33.217] [WARN] console - { members: 
+   [ { [Function: callback] readyStatus: 2 },
+     { [Function: callback] readyStatus: 1 } ],
+  callbacks: [],
+  readyStatus: 0 }
+[2017-05-05 13:52:33.219] [WARN] console - 0
+[2017-05-05 13:52:33.220] [WARN] console - 0
+[2017-05-05 13:52:33.220] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:52:33.220] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:52:33.220] [WARN] console - all ok ....
+[2017-05-05 13:52:40.101] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:52:40.114] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:52:40.118] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:52:40.639] [WARN] console - { members: 
+   [ { [Function: callback] readyStatus: 2 },
+     { [Function: callback] readyStatus: 1 } ],
+  callbacks: [],
+  readyStatus: 0 }
+[2017-05-05 13:52:40.641] [WARN] console - 0
+[2017-05-05 13:52:40.641] [WARN] console - 0
+[2017-05-05 13:52:40.642] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:52:40.642] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:52:40.642] [WARN] console - all ok ....
+[2017-05-05 13:53:31.852] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:53:31.867] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:53:31.870] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:53:32.425] [WARN] console - 0
+[2017-05-05 13:53:32.426] [WARN] console - 0
+[2017-05-05 13:53:32.427] [WARN] console - 0
+[2017-05-05 13:53:32.427] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:53:32.428] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:53:32.428] [WARN] console - all ok ....
+[2017-05-05 13:53:50.620] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:53:50.632] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:53:50.635] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:53:51.118] [WARN] console - ready status ********* 0
+[2017-05-05 13:53:51.120] [WARN] console - 0
+[2017-05-05 13:53:51.121] [WARN] console - 0
+[2017-05-05 13:53:51.121] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:53:51.122] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:53:51.122] [WARN] console - all ok ....
+[2017-05-05 13:54:54.789] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:54:54.806] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:54:54.809] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:54:55.315] [WARN] console - ready status ********* 0
+[2017-05-05 13:54:55.316] [WARN] console - 0
+[2017-05-05 13:54:55.316] [WARN] console - 0
+[2017-05-05 13:54:55.317] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:54:55.318] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:54:55.318] [WARN] console - all ok ....
+[2017-05-05 13:54:59.652] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:54:59.665] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:54:59.669] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:55:00.249] [WARN] console - mmmm
+[2017-05-05 13:55:00.250] [WARN] console - mmmm
+[2017-05-05 13:55:00.251] [WARN] console - ready status ********* 0
+[2017-05-05 13:55:00.251] [WARN] console - 0
+[2017-05-05 13:55:00.252] [WARN] console - 0
+[2017-05-05 13:55:00.253] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:55:00.254] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:55:00.254] [WARN] console - all ok ....
+[2017-05-05 13:55:12.483] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:55:12.497] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:55:12.500] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:55:12.952] [WARN] console - ready status ********* 0
+[2017-05-05 13:55:12.952] [WARN] console - 0
+[2017-05-05 13:55:12.953] [WARN] console - 0
+[2017-05-05 13:55:12.953] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:55:12.954] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:55:12.955] [WARN] console - all ok ....
+[2017-05-05 13:55:16.223] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:55:16.235] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:55:16.239] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:55:16.723] [WARN] console - 0
+[2017-05-05 13:55:16.724] [WARN] console - 0
+[2017-05-05 13:55:16.724] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:55:16.725] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 13:55:16.725] [WARN] console - all ok ....
+[2017-05-05 13:55:42.317] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:55:42.327] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:55:42.330] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:55:42.807] [WARN] console - 1
+[2017-05-05 13:55:42.808] [WARN] console - 1
+[2017-05-05 13:55:52.414] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:55:52.425] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:55:52.428] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:55:52.950] [WARN] console - 1
+[2017-05-05 13:55:52.951] [WARN] console - 1
+[2017-05-05 13:55:59.610] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:55:59.628] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:55:59.634] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:56:00.212] [WARN] console - 1
+[2017-05-05 13:56:00.213] [WARN] console - 2
+[2017-05-05 13:56:00.213] [WARN] console - 2
+[2017-05-05 13:56:00.213] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:56:00.214] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:56:00.214] [WARN] console - all ok ....
+[2017-05-05 13:56:04.619] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:56:04.631] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:56:04.634] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:56:05.150] [WARN] console - 1
+[2017-05-05 13:56:05.151] [WARN] console - 1
+[2017-05-05 13:56:10.725] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:56:10.739] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:56:10.747] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:56:11.263] [WARN] console - 1
+[2017-05-05 13:56:11.264] [WARN] console - 2
+[2017-05-05 13:56:11.264] [WARN] console - 2
+[2017-05-05 13:56:11.265] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:56:11.265] [WARN] console - { [Function: callback] readyStatus: 2 }
+[2017-05-05 13:56:11.266] [WARN] console - all ok ....
+[2017-05-05 13:56:17.495] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:56:17.513] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:56:17.515] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:56:18.039] [WARN] console - 1
+[2017-05-05 13:56:18.040] [WARN] console - 2
+[2017-05-05 13:56:18.041] [WARN] console - 2
+[2017-05-05 13:56:18.041] [WARN] console - all ok ....
+[2017-05-05 13:56:22.290] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:56:22.311] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:56:22.315] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:56:22.819] [WARN] console - all ok ....
+[2017-05-05 13:57:25.135] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:57:25.148] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:57:38.900] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:57:38.913] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:57:38.916] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:57:48.106] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:57:48.117] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:58:02.683] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:58:02.697] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:58:30.997] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:58:31.016] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:59:20.614] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:59:20.629] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:59:45.004] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 13:59:45.020] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 13:59:45.024] [INFO] app - Redis client default is ready {}
+[2017-05-05 13:59:45.461] [WARN] console - Ready { '$readyRef': { members: [], callbacks: [], readyStatus: 0 } }
+[2017-05-05 13:59:45.463] [WARN] console - undefined
+[2017-05-05 13:59:45.473] [WARN] console - { members: [], callbacks: [], readyStatus: 0 }
+[2017-05-05 14:00:38.191] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:00:38.202] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:00:56.499] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:00:56.510] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:00:56.513] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:00:56.946] [WARN] console - undefined
+[2017-05-05 14:00:56.956] [WARN] console - { members: [], callbacks: [], readyStatus: 0 }
+[2017-05-05 14:01:09.604] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:01:09.615] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:01:09.620] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:01:10.047] [WARN] console - undefined
+[2017-05-05 14:01:10.047] [WARN] console - undefined
+[2017-05-05 14:01:10.059] [WARN] console - { members: [], callbacks: [], readyStatus: 0 }
+[2017-05-05 14:01:22.200] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:01:22.216] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:01:22.221] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:01:22.617] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:01:22.619] [WARN] console - undefined
+[2017-05-05 14:01:22.631] [WARN] console - { members: [], callbacks: [], readyStatus: 0 }
+[2017-05-05 14:01:27.818] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:01:27.829] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:01:27.832] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:01:28.208] [WARN] console - [Function: use]
+[2017-05-05 14:01:28.209] [WARN] console - undefined
+[2017-05-05 14:01:28.223] [WARN] console - { members: [], callbacks: [], readyStatus: 0 }
+[2017-05-05 14:01:35.466] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:01:35.481] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:01:46.840] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:01:46.853] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:01:46.855] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:01:47.271] [WARN] console - [Function: use]
+[2017-05-05 14:01:47.272] [WARN] console - undefined
+[2017-05-05 14:01:47.288] [WARN] console - { members: [], callbacks: [], readyStatus: 0 }
+[2017-05-05 14:02:10.840] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:02:10.853] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:02:10.856] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:02:11.229] [WARN] console - undefined
+[2017-05-05 14:02:11.239] [WARN] console - { members: [], callbacks: [], readyStatus: 0 }
+[2017-05-05 14:02:30.459] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:02:30.473] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:02:41.172] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:02:41.183] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:02:56.569] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:02:56.582] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:03:32.908] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:03:32.921] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:04:00.647] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:04:00.659] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:04:00.662] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:04:01.078] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:04:15.552] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:04:15.562] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:04:15.565] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:04:25.271] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:04:25.283] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:04:25.292] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:04:25.818] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:04:38.771] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:04:38.787] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:04:38.790] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:04:39.480] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:06:05.145] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:06:05.156] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:06:05.159] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:06:05.638] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:06:11.541] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:06:11.560] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:06:11.563] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:06:12.126] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:06:16.255] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:06:16.270] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:06:16.273] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:06:29.117] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:06:29.132] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:06:29.137] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:06:29.634] [WARN] console - { [Function: callback] readyStatus: 1 }
+[2017-05-05 14:06:37.582] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:06:37.592] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:06:37.595] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:06:38.076] [WARN] console - callback
+[2017-05-05 14:08:11.383] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:08:11.405] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:08:11.409] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:08:11.879] [WARN] console - callback
+[2017-05-05 14:08:18.915] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:08:18.927] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:08:18.930] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:08:19.455] [WARN] console - undefined
+[2017-05-05 14:08:40.557] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:08:40.570] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:08:40.574] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:08:41.133] [WARN] console - undefined
+[2017-05-05 14:09:05.193] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:09:05.210] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:09:05.217] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:09:05.751] [WARN] console - wire_modules
+[2017-05-05 14:09:05.752] [WARN] console - undefined
+[2017-05-05 14:09:13.865] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:09:13.879] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:09:13.884] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:09:14.415] [WARN] console - wire_modules
+[2017-05-05 14:09:40.809] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:09:40.820] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:09:49.642] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:09:49.661] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:11:01.331] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:11:01.344] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:11:01.347] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:11:01.735] [WARN] console - wire_modules
+[2017-05-05 14:11:15.809] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:11:15.844] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:11:15.856] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:11:20.882] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:11:20.899] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:11:20.904] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:11:21.428] [WARN] console - { [Function: wire_modules] readyStatus: 1 }
+[2017-05-05 14:11:30.680] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:11:30.696] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:11:30.700] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:11:31.239] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:12:25.279] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:12:25.303] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:12:39.980] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:12:39.994] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:14:26.953] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:14:26.968] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:18:00.728] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:18:30.353] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:18:43.563] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:18:43.572] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:18:43.574] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:18:57.305] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:18:57.314] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:18:57.315] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:19:21.306] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:19:21.317] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:19:21.319] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:19:40.357] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:19:40.367] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:19:40.369] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:20:02.932] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:20:02.949] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:20:02.951] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:20:28.762] [WARN] console - [Function: load]
+[2017-05-05 14:20:28.772] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:20:28.871] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:20:28.877] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:20:28.879] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:20:28.882] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:20:41.362] [WARN] console - [Function: load]
+[2017-05-05 14:20:41.368] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:20:41.423] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:20:41.430] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:20:41.432] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:20:49.542] [WARN] console - [Function: load]
+[2017-05-05 14:20:49.550] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:20:49.622] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:20:49.632] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:20:49.634] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:20:49.637] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:21:01.414] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:21:01.503] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:21:01.510] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:21:01.512] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:21:01.516] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:22:07.825] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:22:07.921] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:22:07.929] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:22:07.932] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:22:07.936] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:23:24.783] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:23:24.867] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:23:24.793] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:23:24.878] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:23:24.877] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:23:24.880] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:23:24.883] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:23:33.062] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:23:33.126] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:23:33.139] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:23:33.142] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:23:33.145] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:24:38.734] [DEBUG] app - 2017-5-5 14:24:38 ::1 -- GET / HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-05 14:24:39.628] [DEBUG] app - 2017-5-5 14:24:39 ::1 -- GET / HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-05 14:24:44.861] [DEBUG] app - 2017-5-5 14:24:44 ::1 -- GET /api/user HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-05 14:24:44.863] [ERROR] app - { [NotFoundError: Not Found]
+  restCode: null,
+  statusCode: 404,
+  message: 'Not Found',
+  constructorOpt: undefined,
+  name: 'NotFoundError',
+  expose: true,
+  status: 404 }
+[2017-05-05 14:24:47.209] [DEBUG] app - 2017-5-5 14:24:47 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-05 14:24:47.210] [WARN] console - this is a logger middleware.
+[2017-05-05 14:24:47.359] [DEBUG] app - 2017-5-5 14:24:47 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-05 14:24:47.360] [WARN] console - this is a logger middleware.
+[2017-05-05 14:26:06.779] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:26:06.836] [INFO] console - 
+[2017-05-05 14:26:06.838] [INFO] console - [0m[0m
+[2017-05-05 14:26:06.860] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:26:06.863] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:26:06.877] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:26:06.880] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:26:06.883] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:26:06.901] [DEBUG] app - 2017-5-5 14:26:06 ::ffff:127.0.0.1 -- GET /user HTTP/1.1, null undefined
+[2017-05-05 14:26:06.906] [ERROR] app - { [NotFoundError: Not Found]
+  restCode: null,
+  statusCode: 404,
+  message: 'Not Found',
+  constructorOpt: undefined,
+  name: 'NotFoundError',
+  expose: true,
+  status: 404 }
+[2017-05-05 14:29:03.485] [WARN] console - { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:29:03.528] [INFO] console - 
+[2017-05-05 14:29:03.529] [INFO] console - [0m[0m
+[2017-05-05 14:29:03.546] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:29:03.549] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:29:03.556] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:29:03.560] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:29:03.564] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:29:03.580] [DEBUG] app - 2017-5-5 14:29:03 ::ffff:127.0.0.1 -- GET /user HTTP/1.1, null undefined
+[2017-05-05 14:29:03.584] [ERROR] app - { [NotFoundError: Not Found]
+  restCode: null,
+  statusCode: 404,
+  message: 'Not Found',
+  constructorOpt: undefined,
+  name: 'NotFoundError',
+  expose: true,
+  status: 404 }
+[2017-05-05 14:30:19.927] [INFO] console - 
+[2017-05-05 14:30:19.931] [INFO] console - [0m[0m
+[2017-05-05 14:30:56.415] [INFO] console - 
+[2017-05-05 14:30:56.418] [INFO] console - [0m[0m
+[2017-05-05 14:31:04.320] [INFO] console - 
+[2017-05-05 14:31:04.323] [INFO] console - [0m[0m
+[2017-05-05 14:31:49.826] [INFO] console - 
+[2017-05-05 14:31:49.832] [INFO] console - [0m[0m
+[2017-05-05 14:32:09.635] [INFO] console - 
+[2017-05-05 14:32:09.638] [INFO] console - [0m[0m
+[2017-05-05 14:32:32.123] [INFO] console - 
+[2017-05-05 14:32:32.127] [INFO] console - [0m[0m
+[2017-05-05 14:32:42.263] [INFO] console - 
+[2017-05-05 14:32:42.267] [INFO] console - [0m[0m
+[2017-05-05 14:33:21.675] [INFO] console - 
+[2017-05-05 14:33:21.678] [INFO] console - [0m[0m
+[2017-05-05 14:33:21.696] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:33:21.745] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:33:21.748] [INFO] console - [0m  UserService[0m
+[2017-05-05 14:33:21.751] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:33:21.759] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 14:33:21.761] [INFO] console - 
+[2017-05-05 14:33:49.494] [INFO] console - 
+[2017-05-05 14:33:49.497] [INFO] console - [0m[0m
+[2017-05-05 14:33:49.515] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:33:49.559] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:33:49.562] [INFO] console - [0m  UserService[0m
+[2017-05-05 14:33:49.564] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:33:49.571] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 14:33:49.575] [INFO] console - 
+[2017-05-05 14:34:23.249] [INFO] console - 
+[2017-05-05 14:34:23.253] [INFO] console - [0m[0m
+[2017-05-05 14:34:23.266] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:34:23.311] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:34:23.313] [INFO] console - [0m  UserService[0m
+[2017-05-05 14:34:23.315] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:34:23.318] [WARN] console - { errors: 
+   { BadRequestError: { [Function: BadRequestError] super_: [Object] },
+     UnauthorizedError: { [Function: UnauthorizedError] super_: [Object] },
+     PaymentRequiredError: { [Function: PaymentRequiredError] super_: [Object] },
+     ForbiddenError: { [Function: ForbiddenError] super_: [Object] },
+     NotFoundError: { [Function: NotFoundError] super_: [Object] },
+     MethodNotAllowedError: { [Function: MethodNotAllowedError] super_: [Object] },
+     NotAcceptableError: { [Function: NotAcceptableError] super_: [Object] },
+     ProxyAuthenticationRequiredError: { [Function: ProxyAuthenticationRequiredError] super_: [Object] },
+     RequestTimeoutError: { [Function: RequestTimeoutError] super_: [Object] },
+     ConflictError: { [Function: ConflictError] super_: [Object] },
+     GoneError: { [Function: GoneError] super_: [Object] },
+     LengthRequiredError: { [Function: LengthRequiredError] super_: [Object] },
+     PreconditionFailedError: { [Function: PreconditionFailedError] super_: [Object] },
+     RequestEntityTooLargeError: { [Function: RequestEntityTooLargeError] super_: [Object] },
+     RequesturiTooLargeError: { [Function: RequesturiTooLargeError] super_: [Object] },
+     UnsupportedMediaTypeError: { [Function: UnsupportedMediaTypeError] super_: [Object] },
+     RequestedRangeNotSatisfiableError: { [Function: RequestedRangeNotSatisfiableError] super_: [Object] },
+     ExpectationFailedError: { [Function: ExpectationFailedError] super_: [Object] },
+     ImATeapotError: { [Function: ImATeapotError] super_: [Object] },
+     UnprocessableEntityError: { [Function: UnprocessableEntityError] super_: [Object] },
+     LockedError: { [Function: LockedError] super_: [Object] },
+     FailedDependencyError: { [Function: FailedDependencyError] super_: [Object] },
+     UnorderedCollectionError: { [Function: UnorderedCollectionError] super_: [Object] },
+     UpgradeRequiredError: { [Function: UpgradeRequiredError] super_: [Object] },
+     PreconditionRequiredError: { [Function: PreconditionRequiredError] super_: [Object] },
+     TooManyRequestsError: { [Function: TooManyRequestsError] super_: [Object] },
+     RequestHeaderFieldsTooLargeError: { [Function: RequestHeaderFieldsTooLargeError] super_: [Object] },
+     InternalServerError: { [Function: InternalServerError] super_: [Object] },
+     NotImplementedError: { [Function: NotImplementedError] super_: [Object] },
+     BadGatewayError: { [Function: BadGatewayError] super_: [Object] },
+     ServiceUnavailableError: { [Function: ServiceUnavailableError] super_: [Object] },
+     GatewayTimeoutError: { [Function: GatewayTimeoutError] super_: [Object] },
+     HttpVersionNotSupportedError: { [Function: HttpVersionNotSupportedError] super_: [Object] },
+     VariantAlsoNegotiatesError: { [Function: VariantAlsoNegotiatesError] super_: [Object] },
+     InsufficientStorageError: { [Function: InsufficientStorageError] super_: [Object] },
+     BandwidthLimitExceededError: { [Function: BandwidthLimitExceededError] super_: [Object] },
+     NotExtendedError: { [Function: NotExtendedError] super_: [Object] },
+     NetworkAuthenticationRequiredError: { [Function: NetworkAuthenticationRequiredError] super_: [Object] },
+     BadDigestError: { [Function: BadDigestError] super_: [Object] },
+     BadMethodError: { [Function: BadMethodError] super_: [Object] },
+     InternalError: { [Function: InternalError] super_: [Object] },
+     InvalidArgumentError: { [Function: InvalidArgumentError] super_: [Object] },
+     InvalidContentError: { [Function: InvalidContentError] super_: [Object] },
+     InvalidCredentialsError: { [Function: InvalidCredentialsError] super_: [Object] },
+     InvalidHeaderError: { [Function: InvalidHeaderError] super_: [Object] },
+     MissingParameterError: { [Function: MissingParameterError] super_: [Object] },
+     NotAuthorizedError: { [Function: NotAuthorizedError] super_: [Object] },
+     RequestExpiredError: { [Function: RequestExpiredError] super_: [Object] },
+     RequestThrottledError: { [Function: RequestThrottledError] super_: [Object] },
+     WrongAcceptError: { [Function: WrongAcceptError] super_: [Object] } },
+  redis: 
+   { main: 
+      RedisClient {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        address: '127.0.0.1:6379',
+        connection_options: [Object],
+        connection_id: 0,
+        connected: true,
+        ready: true,
+        should_buffer: false,
+        max_attempts: 0,
+        command_queue: [Object],
+        offline_queue: [Object],
+        pipeline_queue: [Object],
+        connect_timeout: 3600000,
+        enable_offline_queue: true,
+        retry_max_delay: null,
+        retry_timer: null,
+        retry_totaltime: 0,
+        retry_delay: 200,
+        retry_backoff: 1.7,
+        attempts: 1,
+        pub_sub_mode: 0,
+        subscription_set: {},
+        monitoring: false,
+        message_buffers: false,
+        closing: false,
+        server_info: [Object],
+        auth_pass: undefined,
+        selected_db: undefined,
+        old_state: null,
+        fire_strings: true,
+        pipeline: false,
+        sub_commands_left: 0,
+        times_connected: 1,
+        buffers: false,
+        options: [Object],
+        reply: 'ON',
+        reply_parser: [Object],
+        stream: [Object],
+        emitted_end: false,
+        cork: [Function],
+        uncork: [Function] } },
+  mongoose: 
+   { main: 
+      Mongoose {
+        connections: [Object],
+        plugins: [],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object] } },
+  controllers: 
+   { userController: UserController {},
+     mainController: MainController {} },
+  services: { UserService: [Function] },
+  models: 
+   { User: 
+      { [Function: model]
+        hooks: [Object],
+        base: [Object],
+        modelName: 'User',
+        model: [Function: model],
+        db: [Object],
+        discriminators: undefined,
+        schema: [Object],
+        collection: [Object],
+        Query: [Object],
+        '$__insertMany': [Function],
+        insertMany: [Function] } },
+  kvs: { UserKv: [Function] },
+  logger: Logger { category: 'app', _events: { log: [Object] }, _eventsCount: 1 } }
+[2017-05-05 14:34:23.338] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 14:34:41.782] [INFO] console - 
+[2017-05-05 14:34:41.785] [INFO] console - [0m[0m
+[2017-05-05 14:34:41.798] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:34:41.845] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:34:41.847] [INFO] console - [0m  UserService[0m
+[2017-05-05 14:34:41.848] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:34:41.851] [WARN] console - { UserService: [Function] }
+[2017-05-05 14:34:41.857] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 14:35:03.669] [INFO] console - 
+[2017-05-05 14:35:03.672] [INFO] console - [0m[0m
+[2017-05-05 14:35:03.692] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:35:03.732] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:35:03.734] [INFO] console - [0m  UserService[0m
+[2017-05-05 14:35:03.736] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:35:03.740] [WARN] console - { UserService: [Function] }
+[2017-05-05 14:35:03.758] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 14:35:03.761] [INFO] console - 
+[2017-05-05 14:35:21.990] [INFO] console - 
+[2017-05-05 14:35:21.994] [INFO] console - [0m[0m
+[2017-05-05 14:35:22.015] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:35:22.057] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:35:22.060] [INFO] console - [0m  UserService[0m
+[2017-05-05 14:35:22.062] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:35:22.081] [WARN] console - [ { username: '222', id: '5902b753c5756d72945d90b3' },
+  { username: 'user0.38955004828614115',
+    id: '590467fb9bb491da74caee32' },
+  { username: 'user0.9823151939002306',
+    id: '5904689fb4b502db0a450395' } ]
+[2017-05-05 14:35:22.089] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 14:35:22.094] [INFO] console - 
+[2017-05-05 14:35:44.903] [INFO] console - 
+[2017-05-05 14:35:44.906] [INFO] console - [0m[0m
+[2017-05-05 14:35:44.923] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:35:44.977] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:35:44.982] [INFO] console - [0m  UserService[0m
+[2017-05-05 14:35:44.985] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:35:45.016] [WARN] console - [ { username: '222', id: '5902b753c5756d72945d90b3' },
+  { username: 'user0.38955004828614115',
+    id: '590467fb9bb491da74caee32' },
+  { username: 'user0.9823151939002306',
+    id: '5904689fb4b502db0a450395' } ]
+[2017-05-05 14:35:45.021] [INFO] console -   [32m  ✓[0m[90m #getUser[0m
+[2017-05-05 14:35:45.025] [INFO] console - 
+[2017-05-05 14:36:00.551] [INFO] console - 
+[2017-05-05 14:36:00.554] [INFO] console - [0m[0m
+[2017-05-05 14:36:00.572] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:36:00.629] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:36:00.632] [INFO] console - [0m  UserService[0m
+[2017-05-05 14:36:00.634] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:36:00.656] [WARN] console - [ { username: '222', id: '5902b753c5756d72945d90b3' },
+  { username: 'user0.38955004828614115',
+    id: '590467fb9bb491da74caee32' },
+  { username: 'user0.9823151939002306',
+    id: '5904689fb4b502db0a450395' } ]
+[2017-05-05 14:36:00.663] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 14:36:00.669] [INFO] console - 
+[2017-05-05 14:36:28.773] [INFO] console - 
+[2017-05-05 14:36:28.776] [INFO] console - [0m[0m
+[2017-05-05 14:36:28.791] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:36:28.797] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:36:28.805] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:36:28.807] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:36:28.811] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:36:28.828] [DEBUG] app - 2017-5-5 14:36:28 ::ffff:127.0.0.1 -- GET /user HTTP/1.1, null undefined
+[2017-05-05 14:36:28.832] [ERROR] app - { [NotFoundError: Not Found]
+  restCode: null,
+  statusCode: 404,
+  message: 'Not Found',
+  constructorOpt: undefined,
+  name: 'NotFoundError',
+  expose: true,
+  status: 404 }
+[2017-05-05 14:36:28.839] [WARN] console - Not Found
+[2017-05-05 14:36:56.692] [INFO] console - 
+[2017-05-05 14:36:56.695] [INFO] console - [0m[0m
+[2017-05-05 14:36:56.715] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:36:56.721] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:36:56.727] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:36:56.731] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:36:56.735] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:36:56.752] [DEBUG] app - 2017-5-5 14:36:56 ::ffff:127.0.0.1 -- GET /api/user/111 HTTP/1.1, null undefined
+[2017-05-05 14:36:56.755] [WARN] console - this is a logger middleware.
+[2017-05-05 14:36:56.784] [WARN] console - OK
+[2017-05-05 14:36:56.785] [INFO] console -   [32m  ✓[0m[90m should return 200[0m[33m (47ms)[0m
+[2017-05-05 14:36:56.788] [INFO] console - 
+[2017-05-05 14:36:56.790] [INFO] console - 
+[2017-05-05 14:37:57.617] [INFO] console - 
+[2017-05-05 14:37:57.623] [INFO] console - [0m[0m
+[2017-05-05 14:37:57.652] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:37:57.657] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:37:57.669] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:37:57.672] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:37:57.676] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:38:36.637] [INFO] console - 
+[2017-05-05 14:38:36.642] [INFO] console - [0m[0m
+[2017-05-05 14:38:36.654] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:38:36.656] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:38:36.666] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:38:36.670] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:38:36.673] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:38:48.658] [INFO] console - 
+[2017-05-05 14:38:48.661] [INFO] console - [0m[0m
+[2017-05-05 14:38:48.680] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:38:48.684] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:38:48.692] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:38:48.695] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:38:48.700] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:38:48.707] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:39:42.823] [WARN] console - {}
+[2017-05-05 14:39:42.829] [INFO] console - 
+[2017-05-05 14:39:42.830] [INFO] console - [0m[0m
+[2017-05-05 14:39:42.844] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:39:42.846] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:39:42.855] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:39:42.857] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:39:42.860] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:40:45.951] [WARN] console - {}
+[2017-05-05 14:40:45.959] [INFO] console - 
+[2017-05-05 14:40:45.960] [INFO] console - [0m[0m
+[2017-05-05 14:40:45.976] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:40:45.979] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:40:45.991] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:40:45.993] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:40:45.996] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:41:33.602] [WARN] console - {}
+[2017-05-05 14:41:33.608] [INFO] console - 
+[2017-05-05 14:41:33.608] [INFO] console - [0m[0m
+[2017-05-05 14:41:33.622] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:41:33.624] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:41:33.635] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:41:33.640] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:41:58.883] [WARN] console - ********** {}
+[2017-05-05 14:41:58.889] [INFO] console - 
+[2017-05-05 14:41:58.890] [INFO] console - [0m[0m
+[2017-05-05 14:41:58.907] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:41:58.909] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:41:58.914] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:41:58.917] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:42:15.939] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:42:15.952] [INFO] console - 
+[2017-05-05 14:42:15.953] [INFO] console - [0m[0m
+[2017-05-05 14:42:15.966] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:42:15.968] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:42:15.978] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:42:15.982] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:42:27.236] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:42:27.242] [INFO] console - 
+[2017-05-05 14:42:27.243] [INFO] console - [0m[0m
+[2017-05-05 14:42:27.260] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:42:27.261] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:42:27.266] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:42:27.269] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:48:16.214] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:48:16.229] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:48:16.232] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:48:16.236] [INFO] app - application is startup, listening on port 3000
+[2017-05-05 14:48:20.858] [DEBUG] app - 2017-5-5 14:48:20 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-05 14:48:20.861] [WARN] console - this is a logger middleware.
+[2017-05-05 14:48:21.576] [DEBUG] app - 2017-5-5 14:48:21 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36
+[2017-05-05 14:48:21.576] [WARN] console - this is a logger middleware.
+[2017-05-05 14:48:38.546] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:48:38.553] [INFO] console - 
+[2017-05-05 14:48:38.554] [INFO] console - [0m[0m
+[2017-05-05 14:48:38.577] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:48:38.580] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:48:38.586] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:48:38.588] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:48:38.596] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:49:25.467] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:49:25.474] [INFO] console - 
+[2017-05-05 14:49:25.475] [INFO] console - [0m[0m
+[2017-05-05 14:49:25.492] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:49:25.495] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:49:25.508] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:49:25.510] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:49:25.519] [INFO] console -   [32m  ✓[0m[90m should return 200[0m
+[2017-05-05 14:49:51.719] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:49:51.726] [INFO] console - 
+[2017-05-05 14:49:51.727] [INFO] console - [0m[0m
+[2017-05-05 14:49:51.739] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:49:51.742] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:49:51.750] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:49:51.753] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:50:11.833] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:50:11.839] [INFO] console - 
+[2017-05-05 14:50:11.840] [INFO] console - [0m[0m
+[2017-05-05 14:50:11.857] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:50:11.861] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:50:11.870] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:50:11.872] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:50:13.881] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:50:13.885] [INFO] console - 
+[2017-05-05 14:50:13.886] [INFO] console - 
+[2017-05-05 14:50:51.198] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:50:51.206] [INFO] console - 
+[2017-05-05 14:50:51.207] [INFO] console - [0m[0m
+[2017-05-05 14:50:51.224] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:50:51.227] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:50:51.235] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:50:51.237] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:50:56.243] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:50:56.245] [INFO] console - 
+[2017-05-05 14:50:56.247] [INFO] console - 
+[2017-05-05 14:52:21.580] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:52:21.589] [INFO] console - 
+[2017-05-05 14:52:21.590] [INFO] console - [0m[0m
+[2017-05-05 14:52:21.604] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:52:21.605] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:52:21.612] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:52:21.615] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:52:21.637] [WARN] console - undefined
+[2017-05-05 14:52:26.622] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:52:26.625] [INFO] console - 
+[2017-05-05 14:52:26.626] [INFO] console - 
+[2017-05-05 14:52:31.764] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:52:31.770] [INFO] console - 
+[2017-05-05 14:52:31.771] [INFO] console - [0m[0m
+[2017-05-05 14:52:31.788] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:52:31.792] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:52:31.801] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:52:31.804] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:52:31.820] [WARN] console - TypeError: Cannot read property 'status' of undefined
+    at Test._assertStatus (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:229:10)
+    at Test._assertFunction (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:247:11)
+    at Test.assert (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:148:18)
+    at assert (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:127:12)
+    at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:124:5
+    at Test.Request.callback (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/superagent/lib/node/index.js:687:12)
+    at ClientRequest.<anonymous> (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/superagent/lib/node/index.js:639:10)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at Socket.socketErrorListener (_http_client.js:358:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at emitErrorNT (net.js:1283:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[2017-05-05 14:52:36.813] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:52:36.817] [INFO] console - 
+[2017-05-05 14:52:36.819] [INFO] console - 
+[2017-05-05 14:53:01.204] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:53:01.213] [INFO] console - 
+[2017-05-05 14:53:01.214] [INFO] console - [0m[0m
+[2017-05-05 14:53:01.236] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:53:01.240] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:53:01.247] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:53:01.250] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:53:01.270] [WARN] console - TypeError: Cannot read property 'status' of undefined
+    at Test._assertStatus (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:229:10)
+    at Test._assertFunction (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:247:11)
+    at Test.assert (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:148:18)
+    at assert (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:127:12)
+    at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:124:5
+    at Test.Request.callback (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/superagent/lib/node/index.js:687:12)
+    at ClientRequest.<anonymous> (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/superagent/lib/node/index.js:639:10)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at Socket.socketErrorListener (_http_client.js:358:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at emitErrorNT (net.js:1283:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[2017-05-05 14:53:06.258] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:53:06.261] [INFO] console - 
+[2017-05-05 14:53:06.263] [INFO] console - 
+[2017-05-05 14:53:21.853] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:53:21.859] [INFO] console - 
+[2017-05-05 14:53:21.860] [INFO] console - [0m[0m
+[2017-05-05 14:53:21.875] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:53:21.881] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:53:21.890] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:53:21.892] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:53:21.913] [DEBUG] app - 2017-5-5 14:53:21 ::ffff:127.0.0.1 -- GET /user/111 HTTP/1.1, null node-superagent/1.8.5
+[2017-05-05 14:53:21.917] [ERROR] app - { [NotFoundError: Not Found]
+  restCode: null,
+  statusCode: 404,
+  message: 'Not Found',
+  constructorOpt: undefined,
+  name: 'NotFoundError',
+  expose: true,
+  status: 404 }
+[2017-05-05 14:53:21.929] [WARN] console - Error: expected 200 "OK", got 404 "Not Found"
+    at Test._assertStatus (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:232:12)
+    at Test._assertFunction (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:247:11)
+    at Test.assert (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:148:18)
+    at assert (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:127:12)
+    at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/supertest/lib/test.js:124:5
+    at Test.Request.callback (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/superagent/lib/node/index.js:703:3)
+    at IncomingMessage.<anonymous> (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/superagent/lib/node/index.js:922:12)
+    at emitNone (events.js:91:20)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+[2017-05-05 14:53:26.898] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:53:26.903] [INFO] console - 
+[2017-05-05 14:53:26.904] [INFO] console - 
+[2017-05-05 14:53:37.728] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:53:37.736] [INFO] console - 
+[2017-05-05 14:53:37.737] [INFO] console - [0m[0m
+[2017-05-05 14:53:37.753] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:53:37.756] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:53:37.764] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:53:37.767] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:53:37.789] [DEBUG] app - 2017-5-5 14:53:37 ::ffff:127.0.0.1 -- GET /api/user/111 HTTP/1.1, null node-superagent/1.8.5
+[2017-05-05 14:53:37.792] [WARN] console - this is a logger middleware.
+[2017-05-05 14:53:37.821] [WARN] console - null
+[2017-05-05 14:53:42.772] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:53:42.775] [INFO] console - 
+[2017-05-05 14:53:42.777] [INFO] console - 
+[2017-05-05 14:53:45.614] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:53:45.621] [INFO] console - 
+[2017-05-05 14:53:45.622] [INFO] console - [0m[0m
+[2017-05-05 14:53:45.639] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:53:45.641] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:53:45.648] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:53:45.650] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:53:45.671] [DEBUG] app - 2017-5-5 14:53:45 ::ffff:127.0.0.1 -- GET /api/user/111 HTTP/1.1, null node-superagent/1.8.5
+[2017-05-05 14:53:45.675] [WARN] console - this is a logger middleware.
+[2017-05-05 14:53:45.706] [WARN] console - Response {
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  res: 
+   IncomingMessage {
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [Object],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: true,
+        endEmitted: true,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: [Object],
+        encoding: 'utf8' },
+     readable: false,
+     domain: null,
+     _events: 
+      { end: [Object],
+        data: [Object],
+        error: [Object],
+        close: [Function: bound emit] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 138,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 138,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: true,
+     headers: 
+      { 'access-control-allow-origin': '*',
+        'access-control-allow-credentials': 'true',
+        'access-control-allow-methods': 'GET,PUT,POST,PATCH,DELETE',
+        'access-control-allow-headers': 'Content-Type,Authorization,Accept,X-API-From,X-APPID,X-Component,X-FXER,x-api-from,x-appid,x-component,x-fxer',
+        'content-type': 'application/json; charset=utf-8',
+        'content-length': '38',
+        date: 'Fri, 05 May 2017 06:53:45 GMT',
+        connection: 'close' },
+     rawHeaders: 
+      [ 'Access-Control-Allow-Origin',
+        '*',
+        'Access-Control-Allow-Credentials',
+        'true',
+        'Access-Control-Allow-Methods',
+        'GET,PUT,POST,PATCH,DELETE',
+        'Access-Control-Allow-Headers',
+        'Content-Type,Authorization,Accept,X-API-From,X-APPID,X-Component,X-FXER,x-api-from,x-appid,x-component,x-fxer',
+        'Content-Type',
+        'application/json; charset=utf-8',
+        'Content-Length',
+        '38',
+        'Date',
+        'Fri, 05 May 2017 06:53:45 GMT',
+        'Connection',
+        'close' ],
+     trailers: {},
+     rawTrailers: [],
+     upgrade: false,
+     url: '',
+     method: null,
+     statusCode: 200,
+     statusMessage: 'OK',
+     client: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 138,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Object],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     _consuming: true,
+     _dumped: false,
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedHeader: {},
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/user/111 HTTP/1.1\r\nHost: 127.0.0.1:3000\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: node-superagent/1.8.5\r\nConnection: close\r\n\r\n',
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: null,
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/user/111',
+        _ended: true,
+        res: [Circular],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null },
+     text: '{"username":"user0.38955004828614115"}',
+     read: [Function],
+     body: { username: 'user0.38955004828614115' } },
+  request: 
+   Test {
+     domain: null,
+     _events: { end: [Function: bound _clearTimeout] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     _agent: false,
+     _formData: null,
+     method: 'get',
+     url: 'http://127.0.0.1:3000/api/user/111',
+     _header: { 'user-agent': 'node-superagent/1.8.5' },
+     header: { 'User-Agent': 'node-superagent/1.8.5' },
+     writable: true,
+     _redirects: 0,
+     _maxRedirects: 0,
+     cookies: '',
+     qs: {},
+     qsRaw: [],
+     _redirectList: [],
+     _streamRequest: false,
+     _buffer: true,
+     app: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _connections: 0,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        _connectionKey: '6::::3000' },
+     _asserts: [ [Function: bound ] ],
+     req: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedHeader: {},
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /api/user/111 HTTP/1.1\r\nHost: 127.0.0.1:3000\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: node-superagent/1.8.5\r\nConnection: close\r\n\r\n',
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: null,
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/api/user/111',
+        _ended: true,
+        res: [Object],
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null },
+     protocol: 'http:',
+     host: '127.0.0.1:3000',
+     _callback: [Function],
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 200,
+        statusMessage: 'OK',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Object],
+        text: '{"username":"user0.38955004828614115"}',
+        read: [Function],
+        body: [Object] },
+     response: [Circular],
+     _timeout: 0,
+     called: true },
+  req: 
+   ClientRequest {
+     domain: null,
+     _events: 
+      { drain: [Function],
+        error: [Function],
+        response: [Function],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 4,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     upgrading: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedHeader: {},
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 138,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     connection: 
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: null,
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: false,
+        allowHalfOpen: false,
+        destroyed: true,
+        _bytesDispatched: 138,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        read: [Function],
+        _consuming: true,
+        _idleNext: null,
+        _idlePrev: null,
+        _idleTimeout: -1 },
+     _header: 'GET /api/user/111 HTTP/1.1\r\nHost: 127.0.0.1:3000\r\nAccept-Encoding: gzip, deflate\r\nUser-Agent: node-superagent/1.8.5\r\nConnection: close\r\n\r\n',
+     _headers: 
+      { host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'user-agent': 'node-superagent/1.8.5' },
+     _headerNames: 
+      { host: 'Host',
+        'accept-encoding': 'Accept-Encoding',
+        'user-agent': 'User-Agent' },
+     _onPendingData: null,
+     agent: 
+      Agent {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     path: '/api/user/111',
+     _ended: true,
+     res: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 200,
+        statusMessage: 'OK',
+        client: [Object],
+        _consuming: true,
+        _dumped: false,
+        req: [Circular],
+        text: '{"username":"user0.38955004828614115"}',
+        read: [Function],
+        body: [Object] },
+     aborted: undefined,
+     timeoutCb: null,
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null },
+  links: {},
+  text: '{"username":"user0.38955004828614115"}',
+  body: { username: 'user0.38955004828614115' },
+  files: {},
+  buffered: true,
+  headers: 
+   { 'access-control-allow-origin': '*',
+     'access-control-allow-credentials': 'true',
+     'access-control-allow-methods': 'GET,PUT,POST,PATCH,DELETE',
+     'access-control-allow-headers': 'Content-Type,Authorization,Accept,X-API-From,X-APPID,X-Component,X-FXER,x-api-from,x-appid,x-component,x-fxer',
+     'content-type': 'application/json; charset=utf-8',
+     'content-length': '38',
+     date: 'Fri, 05 May 2017 06:53:45 GMT',
+     connection: 'close' },
+  header: 
+   { 'access-control-allow-origin': '*',
+     'access-control-allow-credentials': 'true',
+     'access-control-allow-methods': 'GET,PUT,POST,PATCH,DELETE',
+     'access-control-allow-headers': 'Content-Type,Authorization,Accept,X-API-From,X-APPID,X-Component,X-FXER,x-api-from,x-appid,x-component,x-fxer',
+     'content-type': 'application/json; charset=utf-8',
+     'content-length': '38',
+     date: 'Fri, 05 May 2017 06:53:45 GMT',
+     connection: 'close' },
+  statusCode: 200,
+  status: 200,
+  statusType: 2,
+  info: false,
+  ok: true,
+  redirect: false,
+  clientError: false,
+  serverError: false,
+  error: false,
+  accepted: false,
+  noContent: false,
+  badRequest: false,
+  unauthorized: false,
+  notAcceptable: false,
+  forbidden: false,
+  notFound: false,
+  charset: 'utf-8',
+  type: 'application/json',
+  setEncoding: [Function: bound ],
+  redirects: [] }
+[2017-05-05 14:53:50.657] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:53:50.663] [INFO] console - 
+[2017-05-05 14:53:50.664] [INFO] console - 
+[2017-05-05 14:53:56.423] [WARN] console - ********** { subdomainOffset: 2, proxy: true, env: 'development' }
+[2017-05-05 14:53:56.429] [INFO] console - 
+[2017-05-05 14:53:56.430] [INFO] console - [0m[0m
+[2017-05-05 14:53:56.443] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:53:56.446] [INFO] console - [0m  Example Node Server[0m
+[2017-05-05 14:53:56.455] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:53:56.457] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:53:56.481] [DEBUG] app - 2017-5-5 14:53:56 ::ffff:127.0.0.1 -- GET /api/user/111 HTTP/1.1, null node-superagent/1.8.5
+[2017-05-05 14:53:56.484] [WARN] console - this is a logger middleware.
+[2017-05-05 14:53:56.514] [INFO] console -   [32m  ✓[0m[90m should return 200[0m[33m (52ms)[0m
+[2017-05-05 14:53:56.518] [INFO] console - 
+[2017-05-05 14:53:56.520] [INFO] console - 
+[2017-05-05 14:54:56.003] [INFO] console - 
+[2017-05-05 14:54:56.006] [INFO] console - [0m[0m
+[2017-05-05 14:54:56.022] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:54:56.026] [INFO] console - [0m  GET /api/user[0m
+[2017-05-05 14:54:56.038] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:54:56.040] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:54:56.059] [DEBUG] app - 2017-5-5 14:54:56 ::ffff:127.0.0.1 -- GET /api/user/111 HTTP/1.1, null node-superagent/1.8.5
+[2017-05-05 14:54:56.063] [WARN] console - this is a logger middleware.
+[2017-05-05 14:54:56.093] [INFO] console -   [32m  ✓[0m[90m should return 200[0m[33m (48ms)[0m
+[2017-05-05 14:54:56.095] [INFO] console - 
+[2017-05-05 14:54:56.096] [INFO] console - 
+[2017-05-05 14:56:24.149] [INFO] console - 
+[2017-05-05 14:56:24.153] [INFO] console - [0m[0m
+[2017-05-05 14:56:24.169] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:56:24.174] [INFO] console - [0m  GET /api/user[0m
+[2017-05-05 14:56:24.181] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:56:24.183] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:56:24.202] [DEBUG] app - 2017-5-5 14:56:24 ::ffff:127.0.0.1 -- GET /api/user/111 HTTP/1.1, null node-superagent/1.8.5
+[2017-05-05 14:56:24.206] [WARN] console - this is a logger middleware.
+[2017-05-05 14:56:24.239] [INFO] console -   [32m  ✓[0m[90m should return 200[0m[33m (52ms)[0m
+[2017-05-05 14:56:24.242] [INFO] console - 
+[2017-05-05 14:56:24.244] [INFO] console - 
+[2017-05-05 14:56:30.473] [INFO] console - 
+[2017-05-05 14:56:30.475] [INFO] console - [0m[0m
+[2017-05-05 14:56:30.499] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 14:56:30.502] [INFO] console - [0m  GET /api/user[0m
+[2017-05-05 14:56:30.509] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 14:56:30.511] [INFO] app - Redis client default is ready {}
+[2017-05-05 14:56:30.530] [DEBUG] app - 2017-5-5 14:56:30 ::ffff:127.0.0.1 -- GET /api/user/111 HTTP/1.1, null node-superagent/1.8.5
+[2017-05-05 14:56:30.534] [WARN] console - this is a logger middleware.
+[2017-05-05 14:56:30.566] [INFO] console -   [31m  1) should return 200[0m
+[2017-05-05 14:56:30.569] [INFO] console - 
+[2017-05-05 14:56:30.570] [INFO] console - 
+[2017-05-05 15:00:58.170] [INFO] console - 
+[2017-05-05 15:00:58.174] [INFO] console - [0m[0m
+[2017-05-05 15:00:58.194] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 15:00:58.244] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 15:00:58.247] [INFO] console - [0m  UserService[0m
+[2017-05-05 15:00:58.248] [INFO] app - Redis client default is ready {}
+[2017-05-05 15:00:58.265] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 15:00:58.268] [INFO] console - 
+[2017-05-05 15:00:58.269] [INFO] console - 
+[2017-05-05 15:01:10.755] [INFO] console - 
+[2017-05-05 15:01:10.758] [INFO] console - [0m[0m
+[2017-05-05 15:01:10.774] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 15:01:10.819] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 15:01:10.821] [INFO] console - [0m  UserService[0m
+[2017-05-05 15:01:10.822] [INFO] app - Redis client default is ready {}
+[2017-05-05 15:01:10.850] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 15:01:10.853] [INFO] console - 
+[2017-05-05 15:01:10.854] [INFO] console - 
+[2017-05-05 15:01:29.329] [INFO] console - 
+[2017-05-05 15:01:29.333] [INFO] console - [0m[0m
+[2017-05-05 15:01:29.350] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 15:01:29.387] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 15:01:29.390] [INFO] console - [0m  UserService[0m
+[2017-05-05 15:01:29.391] [INFO] app - Redis client default is ready {}
+[2017-05-05 15:01:29.415] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 15:01:29.419] [INFO] console - 
+[2017-05-05 15:01:29.420] [INFO] console - 
+[2017-05-05 15:02:02.076] [INFO] console - 
+[2017-05-05 15:02:02.079] [INFO] console - [0m[0m
+[2017-05-05 15:02:02.097] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 15:02:02.159] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 15:02:02.161] [INFO] console - [0m  UserService[0m
+[2017-05-05 15:02:02.163] [INFO] app - Redis client default is ready {}
+[2017-05-05 15:02:02.190] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 15:02:02.192] [INFO] console - 
+[2017-05-05 15:02:02.194] [INFO] console - 
+[2017-05-05 15:02:24.753] [INFO] console - 
+[2017-05-05 15:02:24.756] [INFO] console - [0m[0m
+[2017-05-05 15:02:24.770] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 15:02:24.817] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 15:02:24.819] [INFO] console - [0m  UserService[0m
+[2017-05-05 15:02:24.821] [INFO] app - Redis client default is ready {}
+[2017-05-05 15:02:24.842] [WARN] console - { AssertionError: expected [ Array(3) ] to equal 3
+    at _callee$ (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/test/modules/user/services/UserService.js:14:36)
+    at tryCatch (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/rick_lee/dev/codebase/node-webapp-scaffolding/test/modules/user/services/UserService.js:13:191)
+    at /Users/rick_lee/dev/codebase/node-webapp-scaffolding/test/modules/user/services/UserService.js:13:361
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+  message: 'expected [ Array(3) ] to equal 3',
+  showDiff: true,
+  actual: 
+   [ { username: '222', id: '5902b753c5756d72945d90b3' },
+     { username: 'user0.38955004828614115',
+       id: '590467fb9bb491da74caee32' },
+     { username: 'user0.9823151939002306',
+       id: '5904689fb4b502db0a450395' } ],
+  expected: 3 }
+[2017-05-05 15:02:24.850] [INFO] console -   [31m  1) #getUser[0m
+[2017-05-05 15:02:24.854] [INFO] console - 
+[2017-05-05 15:02:24.855] [INFO] console - 
+[2017-05-05 15:03:08.629] [INFO] console - 
+[2017-05-05 15:03:08.632] [INFO] console - [0m[0m
+[2017-05-05 15:03:08.648] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6379 {}
+[2017-05-05 15:03:08.702] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-05-05 15:03:08.704] [INFO] console - [0m  UserService[0m
+[2017-05-05 15:03:08.706] [INFO] app - Redis client default is ready {}
+[2017-05-05 15:03:08.724] [INFO] console -   [32m  ✓[0m[90m #getUser[0m
+[2017-05-05 15:03:08.727] [INFO] console - 
+[2017-05-05 15:03:08.729] [INFO] console - 

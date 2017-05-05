@@ -1,19 +1,20 @@
 import 'babel-polyfill'
-import assert from 'assert';
-import context, { contextLoader } from '../../../../src/app/context';
+import { expect } from 'chai';
+import context, { load } from '../../../../src/app/context';
 
 before(function(done){
-  contextLoader.ready(done);
+  load(null, done)
 })
 
 describe('UserService', () => {
   it('#getUser', async () => {
     const { UserService } = context.services
     try {
-      const users = await UserService.find()
-      assert.equal(0, users.length);
+      const users = await UserService().find()
+      expect(users).to.have.lengthOf(3)
     } catch (e) {
-      assert.equal(null, e);
+      console.error(e)
+      expect(e).to.equal(null)
     }
   })
 })

@@ -1,4 +1,21 @@
-import config from '../config';
+// import Sequelize from 'sequelize'
+// import config from '../config'
+
+// const settings = config.mongo;
+// const { host, username, password, db } = settings
+// const sequelize = new Sequelize(db, username, password, {
+//   host,
+//   dialect: 'mysql',
+//   pool: {
+//     max: 5,
+//     min: 0,
+//     idle: 10000
+//   }
+// });
+
+// export default sequelize
+
+import config from '../config'
 import mongoose from 'mongoose'
 
 const settings = config.mongo;
