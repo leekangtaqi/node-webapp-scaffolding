@@ -32,15 +32,7 @@ export function load(app, done) {
   context.redis.main = redisMain;
 
   allready.add('redis', allready.redis(redisMain));
-  // allready.add('mongoose', allready.mongoose(db));
-  allready.add('mysql', db,
-    db => {
-      db.authenticate().then(() => {
-        allready.up('mysql');
-      })
-    }, () => {}
-  );
-
+  allready.add('mongoose', allready.mongoose(db));
 
   // wire modules
   const modules = require('../modules').default

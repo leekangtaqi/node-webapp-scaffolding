@@ -11631,3 +11631,972 @@ Please handle this in your code to make sure everything works as you intended it
      sql: 'CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `first_name` VARCHAR(255), `user_id` VARCHAR(255), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`), FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB;' },
   sql: 'CREATE TABLE IF NOT EXISTS `user` (`id` INTEGER NOT NULL auto_increment , `first_name` VARCHAR(255), `user_id` VARCHAR(255), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`), FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB;' }
 [2017-05-05 17:47:08.662] [ERROR] console - (node:29878) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): AssertionError: status code must be a number
+[2017-10-26 00:20:38.301] [ERROR] console - (node:28094) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:20:38.316] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:20:38.321] [INFO] app - Redis client default is ended {}
+[2017-10-26 00:20:38.331] [INFO] console - Mongoose connected to mongodb://127.0.0.1:27017/wenode
+[2017-10-26 00:20:38.528] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 200,
+     attempt: 1,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 0,
+     times_connected: 0 } }
+[2017-10-26 00:20:38.534] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:20:38.878] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 340,
+     attempt: 2,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 200,
+     times_connected: 0 } }
+[2017-10-26 00:20:38.883] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:20:39.465] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 578,
+     attempt: 3,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 540,
+     times_connected: 0 } }
+[2017-10-26 00:20:39.468] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:20:40.453] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 983,
+     attempt: 4,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 1118,
+     times_connected: 0 } }
+[2017-10-26 00:20:40.459] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:20:42.132] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 1671,
+     attempt: 5,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 2101,
+     times_connected: 0 } }
+[2017-10-26 00:20:42.136] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:20:44.978] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 2841,
+     attempt: 6,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 3772,
+     times_connected: 0 } }
+[2017-10-26 00:20:44.983] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:20:49.813] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 4830,
+     attempt: 7,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 6613,
+     times_connected: 0 } }
+[2017-10-26 00:20:49.819] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:20:58.037] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 8211,
+     attempt: 8,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 11443,
+     times_connected: 0 } }
+[2017-10-26 00:20:58.040] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:12.003] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 13959,
+     attempt: 9,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 19654,
+     times_connected: 0 } }
+[2017-10-26 00:21:12.005] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:35.741] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 23730,
+     attempt: 10,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 33613,
+     times_connected: 0 } }
+[2017-10-26 00:21:35.747] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:39.559] [ERROR] console - (node:28115) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:21:39.576] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:39.579] [INFO] app - Redis client default is ended {}
+[2017-10-26 00:21:39.587] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:21:39.623] [INFO] console - Mongoose error happens: MongoError: Authentication failed.
+[2017-10-26 00:21:39.627] [ERROR] console - (node:28115) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
+[2017-10-26 00:21:39.628] [ERROR] console - (node:28115) DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2017-10-26 00:21:39.781] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 200,
+     attempt: 1,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 0,
+     times_connected: 0 } }
+[2017-10-26 00:21:39.785] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:40.128] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 340,
+     attempt: 2,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 200,
+     times_connected: 0 } }
+[2017-10-26 00:21:40.134] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:40.716] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 578,
+     attempt: 3,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 540,
+     times_connected: 0 } }
+[2017-10-26 00:21:40.718] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:41.703] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 983,
+     attempt: 4,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 1118,
+     times_connected: 0 } }
+[2017-10-26 00:21:41.706] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:43.378] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 1671,
+     attempt: 5,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 2101,
+     times_connected: 0 } }
+[2017-10-26 00:21:43.383] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:46.229] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 2841,
+     attempt: 6,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 3772,
+     times_connected: 0 } }
+[2017-10-26 00:21:46.236] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:51.071] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 4830,
+     attempt: 7,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 6613,
+     times_connected: 0 } }
+[2017-10-26 00:21:51.074] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:21:59.290] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 8211,
+     attempt: 8,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 11443,
+     times_connected: 0 } }
+[2017-10-26 00:21:59.292] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:14.447] [ERROR] console - (node:28135) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:22:14.456] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:14.461] [INFO] app - Redis client default is ended {}
+[2017-10-26 00:22:14.467] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:22:14.473] [INFO] console - Mongoose error happens: MongoError: Authentication failed.
+[2017-10-26 00:22:14.477] [ERROR] console - (node:28135) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
+[2017-10-26 00:22:14.477] [ERROR] console - (node:28135) DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2017-10-26 00:22:14.667] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 200,
+     attempt: 1,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 0,
+     times_connected: 0 } }
+[2017-10-26 00:22:14.668] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:15.011] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 340,
+     attempt: 2,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 200,
+     times_connected: 0 } }
+[2017-10-26 00:22:15.013] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:15.598] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 578,
+     attempt: 3,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 540,
+     times_connected: 0 } }
+[2017-10-26 00:22:15.600] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:16.584] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 983,
+     attempt: 4,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 1118,
+     times_connected: 0 } }
+[2017-10-26 00:22:16.589] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:18.263] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 1671,
+     attempt: 5,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 2101,
+     times_connected: 0 } }
+[2017-10-26 00:22:18.264] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:21.111] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 2841,
+     attempt: 6,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 3772,
+     times_connected: 0 } }
+[2017-10-26 00:22:21.113] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:25.946] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 4830,
+     attempt: 7,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 6613,
+     times_connected: 0 } }
+[2017-10-26 00:22:25.947] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:34.160] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 8211,
+     attempt: 8,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 11443,
+     times_connected: 0 } }
+[2017-10-26 00:22:34.165] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:22:48.124] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 13959,
+     attempt: 9,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 19654,
+     times_connected: 0 } }
+[2017-10-26 00:22:48.129] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:23:11.865] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 23730,
+     attempt: 10,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 33613,
+     times_connected: 0 } }
+[2017-10-26 00:23:11.869] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:23:52.234] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 40341,
+     attempt: 11,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 57343,
+     times_connected: 0 } }
+[2017-10-26 00:23:52.237] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:25:00.822] [WARN] app - Redis client default is reconnecting to redis://127.0.0.1:6379 { '0': 
+   { delay: 68580,
+     attempt: 12,
+     error: 
+      { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+          at Object.exports._errnoException (util.js:1050:11)
+          at exports._exceptionWithHostPort (util.js:1073:20)
+          at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+        code: 'ECONNREFUSED',
+        errno: 'ECONNREFUSED',
+        syscall: 'connect',
+        address: '127.0.0.1',
+        port: 6379 },
+     total_retry_time: 97684,
+     times_connected: 0 } }
+[2017-10-26 00:25:00.825] [ERROR] app - Redis client default error happens { '0': 
+   { Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+       at Object.exports._errnoException (util.js:1050:11)
+       at exports._exceptionWithHostPort (util.js:1073:20)
+       at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+     code: 'ECONNREFUSED',
+     errno: 'ECONNREFUSED',
+     syscall: 'connect',
+     address: '127.0.0.1',
+     port: 6379 } }
+[2017-10-26 00:26:01.367] [ERROR] console - (node:28265) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:26:01.378] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:26:01.388] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:26:01.392] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:26:01.396] [INFO] console - Mongoose error happens: MongoError: Authentication failed.
+[2017-10-26 00:26:01.397] [ERROR] console - (node:28265) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
+[2017-10-26 00:26:01.397] [ERROR] console - (node:28265) DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2017-10-26 00:26:08.167] [ERROR] console - (node:28276) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:26:08.178] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:26:08.189] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:26:08.194] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:26:08.200] [INFO] console - Mongoose error happens: MongoError: Authentication failed.
+[2017-10-26 00:26:08.201] [ERROR] console - (node:28276) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
+[2017-10-26 00:26:08.201] [ERROR] console - (node:28276) DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2017-10-26 00:26:14.220] [ERROR] console - (node:28296) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:26:14.230] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:26:14.238] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:26:14.242] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:26:14.246] [INFO] console - Mongoose error happens: MongoError: Authentication failed.
+[2017-10-26 00:26:14.247] [ERROR] console - (node:28296) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
+[2017-10-26 00:26:14.247] [ERROR] console - (node:28296) DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2017-10-26 00:26:33.791] [ERROR] console - (node:28314) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:26:33.805] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:26:33.817] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:26:33.821] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:26:33.825] [INFO] console - Mongoose error happens: MongoError: Authentication failed.
+[2017-10-26 00:26:33.826] [ERROR] console - (node:28314) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
+[2017-10-26 00:26:33.826] [ERROR] console - (node:28314) DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2017-10-26 00:34:56.649] [ERROR] console - (node:28603) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:34:56.659] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:34:56.669] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:34:56.674] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:34:56.693] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:34:56.697] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:36:25.092] [DEBUG] app - 2017-10-26 00:36:25 ::1 -- GET / HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+[2017-10-26 00:36:25.247] [DEBUG] app - 2017-10-26 00:36:25 ::1 -- GET /favicon.ico HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+[2017-10-26 00:36:25.250] [ERROR] app - { [NotFoundError: Not Found]
+  restCode: null,
+  statusCode: 404,
+  message: 'Not Found',
+  constructorOpt: undefined,
+  name: 'NotFoundError',
+  expose: true,
+  status: 404 }
+[2017-10-26 00:37:35.450] [DEBUG] app - 2017-10-26 00:37:35 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+[2017-10-26 00:37:35.451] [WARN] console - this is a logger middleware.
+[2017-10-26 00:37:35.453] [ERROR] app - TypeError: Cannot read property 'sync' of undefined
+    at UserService._callee2$ (/Users/work/dev/codebase/ddd/ddd-api/src/modules/user/services/UserService.js:18:11)
+    at tryCatch (/Users/work/dev/codebase/ddd/ddd-api/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/work/dev/codebase/ddd/ddd-api/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/work/dev/codebase/ddd/ddd-api/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/work/dev/codebase/ddd/ddd-api/src/modules/user/services/UserService.js:9:191)
+    at /Users/work/dev/codebase/ddd/ddd-api/src/modules/user/services/UserService.js:9:437
+    at UserService.<anonymous> (/Users/work/dev/codebase/ddd/ddd-api/src/modules/user/services/UserService.js:9:99)
+    at UserService.find (/Users/work/dev/codebase/ddd/ddd-api/src/modules/user/services/UserService.js:94:22)
+    at _callee$ (/Users/work/dev/codebase/ddd/ddd-api/src/modules/user/controllers/UserController.js:6:56)
+    at tryCatch (/Users/work/dev/codebase/ddd/ddd-api/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)
+    at Generator.invoke [as _invoke] (/Users/work/dev/codebase/ddd/ddd-api/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)
+    at Generator.prototype.(anonymous function) [as next] (/Users/work/dev/codebase/ddd/ddd-api/node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)
+    at step (/Users/work/dev/codebase/ddd/ddd-api/src/modules/user/controllers/UserController.js:9:191)
+    at /Users/work/dev/codebase/ddd/ddd-api/src/modules/user/controllers/UserController.js:9:437
+    at /Users/work/dev/codebase/ddd/ddd-api/src/modules/user/controllers/UserController.js:9:99
+    at getUser (/Users/work/dev/codebase/ddd/ddd-api/src/modules/user/controllers/UserController.js:57:21)
+[2017-10-26 00:37:35.467] [ERROR] console - (node:28603) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 3): AssertionError: status code must be a number
+[2017-10-26 00:37:35.467] [ERROR] console - (node:28603) DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[2017-10-26 00:38:31.311] [ERROR] console - (node:28651) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:38:31.328] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:38:31.337] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:38:31.341] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:38:31.357] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:38:31.362] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:38:33.362] [DEBUG] app - 2017-10-26 00:38:33 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+[2017-10-26 00:38:33.366] [WARN] console - this is a logger middleware.
+[2017-10-26 00:41:58.032] [ERROR] console - (node:28701) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:41:58.043] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:41:58.055] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:41:58.059] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:41:58.075] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:41:58.079] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:42:22.648] [ERROR] console - (node:28729) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:42:22.658] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:42:22.666] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:42:22.670] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:42:22.688] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:42:22.692] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:42:24.490] [DEBUG] app - 2017-10-26 00:42:24 ::1 -- GET /api/user/111 HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+[2017-10-26 00:42:24.498] [ERROR] app - { [NotFoundError: Not Found]
+  restCode: null,
+  statusCode: 404,
+  message: 'Not Found',
+  constructorOpt: undefined,
+  name: 'NotFoundError',
+  expose: true,
+  status: 404 }
+[2017-10-26 00:42:27.025] [DEBUG] app - 2017-10-26 00:42:27 ::1 -- GET /api/user HTTP/1.1, null Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+[2017-10-26 00:42:27.026] [WARN] console - this is a logger middleware.
+[2017-10-26 00:44:10.527] [ERROR] console - (node:28781) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:44:10.540] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:44:10.550] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:44:10.556] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:44:10.573] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:44:10.578] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:45:16.922] [ERROR] console - (node:28817) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:45:16.945] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:45:16.970] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:45:16.981] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:45:17.009] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:45:17.013] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:45:43.885] [ERROR] console - (node:28828) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:45:43.896] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:45:43.911] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:45:43.915] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:45:43.932] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:45:43.935] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:46:19.258] [ERROR] console - (node:28881) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:46:19.269] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:46:19.279] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:46:19.284] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:46:19.302] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:46:19.306] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:46:22.454] [ERROR] console - (node:28892) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:46:22.465] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:46:22.474] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:46:22.478] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:46:22.495] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:46:22.499] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:46:26.294] [ERROR] console - (node:28903) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:46:26.307] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:46:26.319] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:46:26.324] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:46:26.344] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:46:26.349] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:46:33.730] [ERROR] console - (node:28923) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:46:33.741] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:46:33.753] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:46:33.757] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:46:33.774] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:46:33.778] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:46:47.788] [ERROR] console - (node:28937) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:46:47.798] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:46:47.807] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:46:47.811] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:46:47.829] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:46:47.833] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:47:15.607] [ERROR] console - (node:28948) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:47:15.616] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:47:15.625] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:47:15.628] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:47:15.646] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:47:15.651] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:49:49.418] [ERROR] console - (node:28988) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:49:49.438] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:49:49.455] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:49:49.462] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:49:49.486] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:49:49.490] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:50:07.674] [ERROR] console - (node:28999) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:50:07.684] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:50:07.693] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:50:07.697] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:50:07.713] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:50:07.717] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:51:00.778] [ERROR] console - (node:29023) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:51:00.793] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:51:00.807] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:51:00.813] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:51:00.833] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:51:00.837] [INFO] app - application is startup, listening on port 3050
+[2017-10-26 00:51:02.274] [ERROR] console - (node:29027) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[2017-10-26 00:51:02.306] [INFO] app - Redis client default is connecting to redis://127.0.0.1:6389 {}
+[2017-10-26 00:51:02.320] [WARN] console - Db.prototype.authenticate method will no longer be available in the next major release 3.x as MongoDB 3.6 will only allow auth against users in the admin db and will no longer allow multiple credentials on a socket. Please authenticate using MongoClient.connect with auth credentials.
+[2017-10-26 00:51:02.326] [INFO] app - Redis client default is ready {}
+[2017-10-26 00:51:02.347] [INFO] console - Mongoose connected to mongodb://ddd:ddd@127.0.0.1:27017/ddd
+[2017-10-26 00:51:02.353] [INFO] app - application is startup, listening on port 3050

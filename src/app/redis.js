@@ -1,4 +1,4 @@
-import config from '../config'
+import config from 'ddd-settings'
 import redis from 'redis'
 import { logger } from './logging'
 import Promise from 'bluebird'

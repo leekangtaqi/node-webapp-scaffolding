@@ -1,4 +1,4 @@
-import config from '../config'
+import config from 'ddd-settings'
 import Koa from 'koa'
 import Ready from '../framework/lean-ready'
 import logging, { logger } from './logging'
